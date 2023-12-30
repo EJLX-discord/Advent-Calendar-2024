@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #222;
+  width: 100%;
+}
+
+body {
+  background: #ffffff;
+  width: 100%;
+}
+
+.page-header {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+.page-header-title-year {
+  font-size: 5rem;
+  color: #2f5339;
+}
+
+.page-header-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header-button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page-header-button {
+  border: 1px solid #222;
+  border-radius: 3px;
+  padding: 5px 10px;
+  font-size: 1.2rem;
+  color: #222;
+  background: white;
+  text-decoration: none;
+  transition: background 0.2s linear, color 0.2 linear;
+}
+
+.page-header-button:hover {
+  color: white;
+  background: #222;
+}
+
+.entry-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  border-top: 1px solid #5c715e;
+  background: #f2f9f1;
+  box-shadow: inset 0px 5px 16px 0px #ededed;
+  padding: 6px;
+}
+
+.entry {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid #7c917d;
+  margin: 12px;
+  background: white;
+  min-width: 500px;
+  box-shadow: 0px 5px 12px 0px #d9d9d9;
+}
+
+.entry-header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.entry-header-calendar-info {
+  font-size: 1.5rem;
+  color: #222;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+
+.entry-header-calendar-info > span {
+  position: relative;
+  z-index: 3;
+}
+
+.entry-header-calendar-info:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 0;
+  z-index: 1;
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid #ddeedf;
+  border-top-left-radius: 5px;
+}
+
+.entry-header-calendar-info:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 0;
+  z-index: 2;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid transparent;
+  border-top: 50px solid #f2f9f1;
+  border-top-right-radius: 5px;
+}
+
+.entry-header-annoucement {
+  font-size: 1.5rem;
+  color: #222;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  background: #ddeedf;
+}
+
+.entry-header-user-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 24px;
+  background: #fcfffb;
+  border-bottom: 1px solid #bed9c1;
+  box-shadow: 0px 1px 4px 0px #c0c0c051;
+}
+
+.entry-header-server-avatar {
+  width: 75px;
+  height: 75px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.entry-header-global-avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.entry-header-text {
+  padding-left: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.entry-header-server-nickname {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.entry-header-global-info > *:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid #aaa;
+}
+
+.entry-header-global-info > *:not(:first-child) {
+  padding-left: 5px;
+}
+
+.entry-annoucement {
+  flex-basis: 100%;
+}
+
+.entry-content {
+  padding: 24px;
+  flex: 1;
+  max-height: 1500px;
+  overflow-y: auto;
+}
+
+.entry-attachment-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 24px;
+  flex-shrink: 1;
+  background: #fcfffb;
+  border-top: 1px solid #bed9c1;
+  box-shadow: 0px -1px 4px 0px #c0c0c051;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+
+  .entry-container {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    overflow: auto;
+  }
+
+  .entry { 
+    min-width: 0;
+   }
+
+   .entry-content {
+    padding: 16px;
+   }
+}
