@@ -774,9 +774,16 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
   },
   {
     isAnnoucement: false,
-    userID: '',
+    userID: '741428429018103928',
     day: 29,
-    data: ``,
+    data: `Advent Calendar Saturday,December 30,2023, TAKU 
+
+    I am joining this event the third time after two years. I am sorry I couldn't prepared  to write essay.  So I will write about my new year's resolution a little bit.  I wanna to keeping touch with an English something.  I would like to chatting with many people who are learning languages.  It will be wonderful experience for  me.  And I would like to teach Japanese and Japanese culture to foreign people who are interested in thinking about Japan. 
+    So I have to learn more about Japan and Japanese. 
+    I want to learn hula,too. 
+    And I wanna meet you some day.  
+    
+    Thanks for reading my poor essay and you may be happy new year.`,
     attachments: [],
   },
   {
