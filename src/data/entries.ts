@@ -17,6 +17,12 @@ export interface Entry {
 const entries: Entry[] = [
   {
     isAnnoucement: true,
+    userID: '238326803003867137',
+    data: `<a:discocat:812416402715705424>`,
+    attachments: [],
+  },
+  {
+    isAnnoucement: true,
     userID: '297635569041801217',
     data: `If you need inspiration, check out the past submissions here: https://ejlx-discord.github.io/Advent-Calendar-Hub/
 Hello every*nyan*! How is everyone doing *desu~*?
