@@ -7,7 +7,8 @@ export interface Attachment {
 }
 
 export interface Entry {
-  isAnnoucement: boolean;
+  isAnnoucement?: boolean;
+  isOnlyEmojis?: boolean;
   userID: string;
   data: string;
   attachments: Attachment[];
@@ -17,6 +18,7 @@ export interface Entry {
 const entries: Entry[] = [
   {
     isAnnoucement: true,
+    isOnlyEmojis: true,
     userID: '238326803003867137',
     data: `<a:discocat:812416402715705424>`,
     attachments: [],
@@ -76,7 +78,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '214705183010193408',
     day: 1,
     data: `# Advent Calendar 2023
@@ -113,7 +115,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '732607156129497160',
     day: 2,
     data: `おはようございます！
@@ -131,7 +133,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '238362474578051072',
     day: 3,
     data: `ここに書く機会を当ててくれてありがとうございます。今日はイギリスのクリスマス伝統ことを説明したいと思います。こんなに長い文章を書くの初めてですから、間違えれば勘弁してください！
@@ -148,7 +150,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '197148954587168768',
     day: 4,
     data: `🇯🇵 **日本に引っ越してよかった**❤️  
@@ -161,7 +163,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '236479128289673218',
     day: 5,
     data: `漸く僕の番ですね。始める前に、翻訳アプリと辞書を参考にしているため、表現に違和感があれば申し訳ございません。
@@ -175,7 +177,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '238330093678755840',
     day: 6,
     data: `こんにちは、皆さん
@@ -194,7 +196,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '289842661630672896',
     day: 7,
     data: `新年を待つのは止めます。今あなたの命は良い変革始めます。
@@ -207,7 +209,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '546655889415864330',
     day: 8,
     data: `2023/12/08
@@ -222,7 +224,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '191837210209812480',
     day: 9,
     data: `「やっぱり、愛がなければね」
@@ -252,7 +254,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '590438821968216064',
     day: 10,
     data: `いよいよ僕の番がやってきた。衝動的に申請してからあまり考えずにいてしまったので、午前中は何を書こうかと悩んでいた。皆さんが投稿してきた心を温める話を読んだら、ちょっと違うのを書くことにした。
@@ -293,7 +295,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '333972981632204801',
     day: 11,
     data: `もうすぐ前期の終わりだね。明日最後の期末試験を受けてやっと帰っていく。それが楽しみだけど、実は今学期が一番嬉しい学期だったんだ。
@@ -308,7 +310,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '185051004763504640',
     day: 12,
     data: `目が覚めた。今何時だ？
@@ -342,7 +344,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '208546518846799883',
     day: 13,
     data: `ヤッホーみんな<:BocchiHehe:1070899810296676453> 。俺は今年もアドカレに参加する。何を書けばいいかめっちゃ悩んでたけど。SSSS.Dynazenon<:YumeChurro:837807525481938985> というアニメについて話したいんだけど、やっぱり俺ぐらいの日本語の能力だとなんでこのアニメがそんなに好きなのかの微妙な理由がうまく伝えられないから結局ほかの話を選ぶ。ということで今年の日本旅行について書こうと思う。<:KasumiNaruhodo:587995477916516362> 
@@ -371,7 +373,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '221167310986149888',
     day: 14,
     data: `私の今年のアドベントカレンダーは行書で書いてみました。<:pikaoh:585692739832643604>`,
@@ -382,7 +384,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '175990649361793024',
     day: 15,
     data: `__**アドカレ　2023年12月15日**__
@@ -447,7 +449,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '741715365477744650',
     day: 16,
     data: `人類の最も素晴らしい発明は言語です。他人とのコミュニケーションだけではなく、歌や詩などが作れます。言語はそもそも口語から発展しましたね。そして記録する為に石に何かを刻みました。この不思議な過程によって、私たちは日本語を勉強できます。文化に言語が無ければ、生き続けることは不可能です。
@@ -460,7 +462,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '603081340581314560',
     day: 17,
     data: `2023年12月17日 (日)
@@ -486,7 +488,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '161243841129611264',
     day: 18,
     data: `**__アドベントカレンダー2023年12月18日__**
@@ -509,7 +511,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '609410502539608064',
     day: 19,
     data: `# アドカレ１９日：藍生
@@ -538,7 +540,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '107202830846148608',
     day: 20,
     data: `２０日１２月２０２３年のスカイズのアドベントカレンダーへようこそ！
@@ -557,7 +559,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '317491770114048000',
     day: 21,
     data: `**１２月２１日アドカレ：**
@@ -574,7 +576,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '441283734214279178',
     day: 22,
     data: `何かを毎日やるのは大変ですよね。ほぼ3年前に<#352299136307036160>のために手書きの火曜日のウエブサイトとボットを作りました。それ以来、大体毎週歌詞とかからの新しい手書きチャレンジをアップします。参加したみんな様のおかげで最高のチャレンジにする気が出来ます。人々が毎週待っているプレッシャーがなかったら、 こんなプロジェクトは僕に無理だと思います。それで､ 新しいことをしたいのに気力がないと思うなら、「どうやって私に頼る人があるプロジェクトにするか」と考えて見てください。
@@ -587,7 +589,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '637638917214175232',
     day: 23,
     data: `**アドベントカレンダー2023年12月23日（土）：これはペンです。**
@@ -667,7 +669,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '290290430074159114',
     day: 24,
     data: `アドベントカレンダー2023年12月24日（日） 
@@ -684,7 +686,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '742521478062407742',
     day: 25,
     data: `２０２３年１２月２５日（月）
@@ -717,7 +719,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '688465754516881622',
     day: 26,
     data: `## アドベントカレンダー2023年12月26日（火） 
@@ -740,7 +742,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '473013785884622848',
     day: 27,
     data: `Advent Calendar Wednesday, December 27, 2023, ayumi
@@ -758,7 +760,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '307678885942657046',
     day: 28,
     data: `アドベントカレンダー2023年12月28日 （木）
@@ -779,7 +781,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     }],
   },
   {
-    isAnnoucement: false,
+    
     userID: '741428429018103928',
     day: 29,
     data: `Advent Calendar Saturday,December 30,2023, TAKU 
@@ -793,14 +795,14 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '',
     day: 30,
     data: ``,
     attachments: [],
   },
   {
-    isAnnoucement: false,
+    
     userID: '',
     day: 31,
     data: ``,

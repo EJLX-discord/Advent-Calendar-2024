@@ -130,7 +130,7 @@ export default (handlebars: typeof Handlebars) => {
     'entry',
     `<div class="entry{{#if day}} entry-{{day}}{{/if}}{{#if isAnnoucement}} entry-annoucement{{/if}}">
       {{>entryHeader user=(getUser userID) day=day}}
-      <div class="entry-content">
+      <div class="entry-content{{#if isOnlyEmojis}} entry-emoji-only{{/if}}">
         {{#each nodes}}{{> (lookup . 'type') }}{{/each}}
       </div>
       {{#if attachments}}
