@@ -22,6 +22,7 @@ export default (handlebars: typeof Handlebars) => {
       <link href="styles/index.css" rel="stylesheet" />
       <link href="styles/discord-components.css" rel="stylesheet" />
       <script async src="scripts/back-to-top-button.js"></script>
+      <script async src="scripts/image-zoomer.js"></script>
     </head>`
   )
 
