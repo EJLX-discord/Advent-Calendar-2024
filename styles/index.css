@@ -221,7 +221,7 @@ body {
   overflow-y: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1080px) {
   html {
     font-size: 14px;
   }
@@ -239,5 +239,6 @@ body {
 
    .entry-content {
     padding: 16px;
+    max-height: none;
    }
 }
