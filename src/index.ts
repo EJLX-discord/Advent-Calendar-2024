@@ -44,10 +44,11 @@ function countOctothorpesAtStart(input: string): number {
 function convertTextNodesToHeadingsInPlace(nodes: ReturnType<typeof parse>) {
   for (const node of nodes) {
     if (node.type === 'text') {
-      if ((node.content as string).startsWith('#')) {
-        const numOctothorpes = countOctothorpesAtStart(node.content)
-        if (node.content[numOctothorpes] === ' ') {
-          node.content = node.content.substring(numOctothorpes + 1)
+      const trimmedString = (node.content as string).trimStart()
+      if (trimmedString.startsWith('#')) {
+        const numOctothorpes = countOctothorpesAtStart(trimmedString)
+        if (trimmedString[numOctothorpes] === ' ') {
+          node.content = trimmedString.substring(numOctothorpes + 1)
           node.type = 'heading'
           node.level = numOctothorpes
         }
@@ -196,8 +197,8 @@ async function main() {
   const unmappedChannelIDs: string[] = []
   const unmappedUserIDs: string[] = []
   parsedEntries.forEach(entryData => {
-    convertTextNodesToHeadingsInPlace(entryData.data)
     entryData.data = coalesceTextNodes(entryData.data)
+    convertTextNodesToHeadingsInPlace(entryData.data)
     missingEmojiFiles.push(...markMissingEmojiFiles(entryData.data))
     unmappedChannelIDs.push(...mapChannelIDsToName(entryData.data))
     unmappedUserIDs.push(...mapUserIDsToName(entryData.data))
