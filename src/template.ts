@@ -2,6 +2,8 @@ import Handlebars from "handlebars";
 
 import users from './users';
 
+let globalCounter = 1
+
 export default (handlebars: typeof Handlebars) => {
 
   Handlebars.registerHelper('getUser', (userID: string) => {
@@ -11,6 +13,12 @@ export default (handlebars: typeof Handlebars) => {
   Handlebars.registerHelper('dayToDOW', (day: number) => {
     const DOW = ['金', '土', '日', '月', '火', '水', '木']
     return DOW[(day - 1) % 7]
+  })
+
+  Handlebars.registerHelper('getNextID', () => {
+    const nextID = globalCounter
+    globalCounter += 1
+    return nextID
   })
 
   const helmetPartial = Handlebars.registerPartial(
@@ -129,7 +137,9 @@ export default (handlebars: typeof Handlebars) => {
 
   const entryPartial = Handlebars.registerPartial(
     'entry',
-    `<div class="entry{{#if day}} entry-{{day}}{{/if}}{{#if isAnnoucement}} entry-annoucement{{/if}}">
+    `<div class="entry{{#if isAnnoucement}} entry-annoucement{{/if}}"
+        {{#if day}}id="entry-{{day}}"{{/if}}
+        {{#if isAnnoucement}}id="entry-annoucement-{{getNextID}}"{{/if}}>
       {{>entryHeader user=(getUser userID) day=day}}
       <div class="entry-content{{#if isOnlyEmojis}} entry-emoji-only{{/if}}">
         {{#each nodes}}{{> (lookup . 'type') }}{{/each}}

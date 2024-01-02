@@ -800,7 +800,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     day: 31,
     data: `# アドカレ2023
 
-    ## 前書き　
+    ##  前書き　
     
     まあ大晦日ですよね
     
@@ -808,7 +808,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     
     新年の抱負はまじで日本語を磨くことやねー
     
-    ## 幸せの落下、ほぼ鬱病になってどうやって唯一の科目は自信を積み上がった
+    ##  幸せの落下、ほぼ鬱病になってどうやって唯一の科目は自信を積み上がった
     
     消極的な作文をすることはけいかくじゃないですけれども、挫折、困難、消失などの言葉を表したら、深く反省してどうやって来年に自分自身に良くなりかた思います。
     
@@ -823,6 +823,23 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     この科目は宗教の科目だった。rite journeyというだ、この科目で良い人になったり、子供から大人になりかたを教えたり、挑戦するアクティビティをしたり、女の人に話して一緒に討論したり、自然に木を植えったりします、科目で互いの友達があったので楽しくなった。いつも遊んで冗談を言ってすごく楽しかった。一番楽しい記憶は女のrite journeyクラスと討論をしました。二回をして2回目で復習をすごく誓って勝った、一回目の討論は男グループsethくんが反論した。Sethは一切に反論しなくて女グループの理由に応援しちゃった。すごく怒って二度と次の討論に選ばなかった。まだ瞬間が面白いと思うやね。
     
     参加させていただいてありがとうございました！`,
+    attachments: [],
+  },
+  {
+    userID: '297635569041801217',
+    isAnnoucement: true,
+    data: `And hereby I announce the end of 7th annual EJLX Advent Calendar~ <:kyuuParty:585675306921230337> 
+    Thanks to everyone who participated, spectated and supported for making the event successful! 
+    
+    A lot of you must’ve reflected on whatever 2023 brought you as you wrote, posted or read the entries but I hope you were able to dispel your worries or troubles you’ve had in 2023 so we can move on to our next year, 2024, and make it even better!
+    
+    This channel will be archived on the 10th of January but I’ll be opening an Afterparty thread for everyone to release their hype they’ve mustered up during the holidays. (but please don’t forget the server rules okay, okay?!)
+    
+    Oh and the colour roles will be there until the end of January~
+    
+    Lastly, Special thanks to <@128369934857273344> for making and designing the site for the current and previous Advent Calendar entries! 
+    
+    They’ll be archived here → https://ejlx-discord.github.io/Advent-Calendar-2023/ so feel free to check them anytime!`,
     attachments: [],
   },
 ]
