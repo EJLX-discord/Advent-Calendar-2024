@@ -39,4 +39,5 @@ There are also CSS files in `styles`:
 Optional Javascript features are located in `scripts`. If anything on the page is made interactable by JS, then the script itself is what creates and injects those components into the DOM. Thus is any user has JS disabled, those interactive components simply won't exist on the page.
 
 - `back-to-top-button.js`: Adds a button to the bottom-right of the page to scroll back to the top.
-- `image-zoomer.js`: When you click on an attachment image, opens up a modal with the fullscreen image. This is useful since some of the entries have images with writing or text on it. 
+- `image-zoomer.js`: When you click on an attachment image, opens up a modal with the fullscreen image. This is useful since some of the entries have images with writing or text on it.
+- `copy-link-button.js`: Adds a "copy link" button to the bottom of each entry which puts the direct link for the entry to the clipboard. Also handles a temporary popup annoucing the copy.
