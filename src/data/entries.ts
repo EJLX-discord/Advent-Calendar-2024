@@ -6,15 +6,205 @@ export interface Attachment {
   isUnbound?: boolean;
 }
 
-export interface Entry {
-  isAnnoucement?: boolean;
+export interface EntryData {
   isOnlyEmojis?: boolean;
   userID: string;
   data: string;
   attachments: Attachment[];
+}
+
+export interface Entry {
+  annoucement?: EntryData;
+  en?: EntryData;
+  jp?: EntryData;
   day?: number;
 }
 
+const entries: Entry[] = [
+  {
+    annoucement: {
+      isOnlyEmojis: true,
+      userID: '238326803003867137',
+      data: `<a:discocat:812416402715705424>`,
+      attachments: [],
+    },
+  },
+  {
+    annoucement: {
+      isAnnoucement: true,
+      userID: '297635569041801217',
+      data: `If you need inspiration, check out the past submissions here: https://ejlx-discord.github.io/Advent-Calendar-Hub/
+Hello every*nyan*! How is everyone doing *desu~*?
+I hope *minna* is *daijoubuwu* but more importantly,
+this year’s about to end but don’t forget what’s to be held!
+
+*Nani* you say? It’s the **EJLX Advent Calendar**! *desu*~
+
+From December 1st to December 31st we’ll practice writing in our target languages, share and rejoice with our tomofwendachis! Everyone in this server is our tomofwendachi! <a:owoNods:736864626435686430> 
+
+Every day in December one of the 31 participants will post their submission in <#1177901768311590952>. The submissions can be about any topic, as long as it stays within the rules of this server (<#189585230972190720>) *desu*~, and in any literary format. If you need inspiration, check out the past submissions here: https://ejlx-discord.github.io/Advent-Calendar-Hub/
+
+All submissions have to be in the participant’s target language:
+
+- Those with \`Native English Speaker\` and \`Other language\` roles must post their submission in Japanese.
+- Those with a \`Native Japanese Speaker\` role must post their submission in English.
+
+All participants will be rewarded with a temporary festive role (To commemorate the 7th time, we’re adding 2 new colours to choose from *desu*~) and a commemorative role (this one’s permanent!)
+
+**To participate**, please DM <@297635569041801217> with your preferred day. Participant registration will be on the first come first serve basis. If, for any reason, you can’t participate on the day you were assigned, let me know so an exchange of dates with someone else could be arranged *kudasai*!
+
+You’ll be given permissions to post a submission in <#1177901768311590952> on your day (0:00-23:59 UTC), but if you can’t make it in time, please don’t hesitate to DM <@297635569041801217> *onegaishimasu*~!
+
+＊　＊　＊
+
+やぁみんな！👋
+どう最近？元気🤜にしてるかい！？👍👍
+ここは雪🥶がそろそろ降りそうな季節でテンションも電気代も爆上がりだぜ！HA☆HA☆HA🥴
+ん？ジョニーがさっさと本題に入れって？ああ、わかったよジョニー。でもせっかちな男はモテないぞ☆ HA☆H(((
+
+では早速本題に移るけど今年も__アレ__をやるぜ！
+そう！　🔥🔥 アドベントカレンダー 🔥🔥
+アドベントカレンダーってなんなのかがわからない人たちのために簡単に説明すると！|| <https://ja.m.wikipedia.org/wiki/アドベントカレンダー> この記事をでも読みたまえ！ HA☆HA☆HA|| 
+だがEJLXのアドベントカレンダーはこうだ！
+迫り来るゆく年くる年までの残り日数を噛み締めながら、当日までの心の叫びや思ったこと！みんなに伝えたいこと！なんとなく書きたいこと！をココで！みんなに！共有するイベントだぜ！激アツだぜ！！！！🔥🔥🔥　ヒュー！
+
+アドベントカレンダーのルールはこうだ！
+・\`英語話者\`と\`多言語話者\`は__日本語__で書いてくれよな！
+・\`日本語話者\`は__英語__で書いてくれよな！
+・内容はもちろん <#189585230972190720> に則って書いてくれよな！
+以上！
+
+参加したい方は俺宛に <@297635569041801217> 参加意思表示と希望日のDM送ってくれよな！また、なんらかの理由でやはり厳しいとなった場合も遠慮なくDMを送ってくれ！なんとかしてみせるぜ！
+
+当日になったらその日担当の人に<#1177901768311590952>で書き込む権限を付与するのでバンバン貼ってくれ！また当日に時間通りに投稿できないことが判明したら俺宛に <@297635569041801217> DMを送ってくれよな！
+
+話題が思いつかない！や過去の投稿を参考にしたい方は→ https://ejlx-discord.github.io/Advent-Calendar-Hub/ を見てね！
+ちなみに、参加者には永久ロールと期間限定の色ロールも与えちゃうぞ！HA☆HA☆HA
+応募枠が結構限られてるので早めに応募してくれよな！待ってるぜ！😘
+`,
+      attachments: [],
+    },
+  },
+  {
+    day: 1,
+    en: {
+      userID: '214705183010193408',
+      data: `# Advent Calendar 2023
+  
+      いよいよこの時期か。よし、例年通りまたアドカレに参加しようっと…　2017年、2018年、2019年、2020年、2021年、2022年の6年もこのアドベントカレンダーに参加しましたが、アドカレに参加することがもはや自分の中では伝統となっています。
+      
+      どうでもいいことなほど、もっとやりたくなっちゃう性格のせいか、今までは毎年欠かさず参加してきた。これで何かを証明しようとしてるわけでもないけど、日本語を勉強しはじめて7年半経つのに、いまだにFJを貰えてないのが悔しいといえば悔しいし、これを通していつか「これは日本人が書いたって言われても全然違和感がない」って言わせたいという気持ちがないと言えば嘘になるかな。まあ、FJが欲しいのは、そのロール自体に何か価値を感じるからとかではなくて、単に自分では自分の日本語の不自然なところが見えなくなってしまったから、不自然なところに気付いてる人にそれを指摘してほしい。誰かに頼んでいちいち聞くのも申し訳ないし、無理にお願いしてしまうと、訂正がいらないところまで訂正される可能性もあると思うんだよね。だから別にFJを付けてもらわないところで、日本語の勉強（さっきから勉強って何度も言ってるけど、勉強という勉強はまったくやってない）を辞めるわけではない。なんなら、訂正やもっと自然な文章を書くための指摘を貰えれば、それこそこのアドカレの醍醐味だと思ってる。
+      
+      では、前置きと（じゃっかんくだらない）独り言はさておき、本題に入ります。今年は話題についてかなり悩みましたが、つい最近、自分がこれまで見た日本ドラマのシリーズ数が100個を突破しましたので、やはりそれについて少し語らせていただきます。
+      
+      日本のドラマは演技が大げさすぎると思われている方達が多いんですが、実際のところ、そうでもないんです。私も最初は同じ意見でしたが、ドラマシリーズ100個を通して汲み取った意見を述べます。
+      ＊ここからは自分の意見や推察しか書かれていないので、その点を忘れないでください。別に自分の意見を裏付けるために調査したりしていません。
+      
+      まず、当たり前ですが、他の国と同じく演技のクオリティはドラマによります。演技にリアリティがあるドラマもあれば、演技が大げさなドラマももちろん存在します。
+      
+      海外の人が知るドラマは大体、漫画やアニメの実写版になってしまうので、演技がいいはずもありません。実写版では普段、漫画をそのまま映そうとしてしまうので、漫画では違和感がなかった表情や仕草でも、実写版ではかなりの違和感を与えてしまいます。
+      
+      そもそもすべてのドラマが同じところを目指しているわけではありません。視聴者にインパクトを与えることが一番の目的のドラマもあれば、出演者を可愛く見せたいドラマもあります。ティーン向けのドラマやロマンス系は特にそうです。アイドルの名を売るのが一番重要だから、出演者達に多少バカなことをやってもらって、視聴者達にそれを楽しんでいただくのが目的です。主演者達に20代前半の子しかいないドラマはそうである確立が高いです。
+      
+      これら以外にも、演技が大げさな理由はいろいろありますが、それらの理由はドラマごとに説明するしかないんですが、簡単にいうと、演技が大げさなのはそのほうが面白いからです。
+      
+      しかし、どうしても演技にリアリティを求めてしまわれる方達もやはりいらっしゃるかと思いますので、小説が原作のドラマがおすすめです。こちらは基本的に演技がよくて、ストーリーも面白いんですが、その上に原作を読まなくて済むというメリットもあります。あと、WOWOWドラマは演技のリアリティが高いイメージです。
+      
+      他にも色々書かせていただきたいことがございましたが、何も思い出せなくなってしまいましたので、この辺にします。ご容赦ください。
+      
+      あ、そうだ。最後に、リアリティが高い演技のドラマをいくつかおすすめさせていただきます：
+      [鉄の骨](<https://mydramalist.com/52367-tetsu-no-hone>)
+      [コールドケース ～真実の扉～](<https://mydramalist.com/18509-cold-case-shinjitsu-no-tobira>)
+      [新聞記者](<https://mydramalist.com/70963-shinbun-kisha>)
+      [坂の途中の家](<https://mydramalist.com/32267-saka-no-tochu-no-ie>)
+      [獣になれない私たち](<https://mydramalist.com/30530-kemono-ni-narenai-watashitachi>)
+      
+      日本のドラマにチャンスをください。`,
+      attachments: [],
+    },
+    jp: {
+      userID: '546655889415864330',
+      data: `2023/12/08
+  
+      How many books do you read usually? People sometimes ask me that question (for example, my father asked me this question last Sunday). It's so difficult for me to answer - I don't count how many books I have been reading. But the service *bookmeter（読書メーター）* which I have been using for recording my reading says that I had read 198 books in 2002. Then, I read a book by using two days. Once I heard that Kazuki Sakuraba（桜庭一樹）, a great reader and novelist, reads a book per a day. Oh, there are always greater people.
+      
+      Why do I read such many, so many books? I can't see - I won't be kidding about this. Because I am not the main subject which reads these books. It's really difficult to explain, but the one in me (it must be an awful *beast*) always wants me to read these books. In other words, I am an owner of a beast (or simply, as YES sings, I am *an owner of a lonely heart*). This year, I have written my journal almost every day, and shown my funny days. I look back (in shame), and see that it must be a record of that kind of struggle between me and the beast.
+      
+      TBH, I had thought that I should refuse this advent calendar event because I had been too depressed. But today (2023/12/07) I went to the book café 本の蔵 in my town to enjoy the day off. At there, I enjoyed a cup of coffee and some sweets, and found some interesting books as Akira Abe's long novel （阿部昭『緑の年の日記』）and also Albert Camus's notebooks. The rule of that café doesn't allow me to borrow them, so I went to the library to find. Oh my gosh! Like this, the depression started fading away, instead the interest in this world came back.
+      
+      Life goes on. Although I will become 49 the next year (the age Souseki Natsume had passed away), I would read books like this. And I would keep on trying to learn English to enjoy daily communication, and also making friends. Now I don't have any interest in becoming rich - just I want to enjoy reading, and also living my days slowly, bit by bit. And - Reading goes on.`,
+      attachments: [],
+    },
+  },
+  {
+    day: 2,
+    en: {
+      userID: '473013785884622848',
+      data: `Advent Calendar Wednesday, December 27, 2023, ayumi
+  
+  
+      **1. How to interact with AI**
+      Have you ever used apps or software services with AI? I’m just guessing most of everyone here has used apps or services with AI out just for kicks or to learn languages. I’ve used Chat GPT, Adobe Firefly, and Copilot. It is off-topic, but you will find some mistakes in this essay because I wrote it without using Chat GPT. 
+      Some of you may be using the apps or services you always use intentionally without realizing they are equipped with AI. Imagine what it would be like to live with AI for years to come. There are pros and cons to using AI in our lives. The positive things I can come up with off the top of my head are it will be convenient and helpful for us. AI can collect our data and learn by itself to help us solve our problems. Conversely, if AI is abused, it will affect the economy. With the advent of AI, some lines of work may replace AI. Do you see a future with more advanced AI? Am I ready to study AI and put it to good use? I would think. Let’s make good use of AI to update ourselves as well in the future.
+      
+      **2. My New Year’s resolution**
+      Every time I post my Advent Calendar, I realize that I always set the same old goals every year. Until several months ago, I didn't think my English had improved much. I decided to change my mind, and I started applying myself to my English-speaking practice a few months ago. These days, there are many recipes for success for Japanese people who speak English fluently on YouTube. However, for me, it was more important to find problems for improvement to see why my English hadn't improved as much as I expected for five years. The answer is simple. I didn't have many opportunities to speak. One day, I told my coworker I wanted to practice speaking English more. In addition, it turned out that there were people who had been studying English in my company. I have rubbed off on them I have earnestly been practicing speaking English every day.  Therefore, my New Year resolution is to increase my daily English study by one hour more than I do now. I need to practice speaking every day to be fluent without fail. I am gradually changing my lifestyle now, and I am sure I will be able to study English more meaningfully next year. 
+  
+  
+      Last but not least, thank you very much for taking the time to read my essay. We only have a few days this year. I hope you all have a good time! 🐶`,
+      attachments: [],
+    },
+    jp: {
+      userID: '732607156129497160',
+      data: `おはようございます！
+      今年はすみます。来年来ますけど。チェックリストつくりますか？新年の抱負？私はしません、でも上に「勉強」有ります！私は勉強延び延びですよ。
+      新年の抱負作りましょう。何になりたい？小さい目標始めます、そして大きい止めます。意欲は大切ですね。
+      がんばってください、新年の抱負ありますかありません。
+      これはクリスマス音楽が楽しますください！（ジングルベルロック）
+      楽しいクリスマス！`,
+      attachments: [{
+        type: 'image',
+        file: '2-1.png',
+      }, {
+        type: 'audio', 
+        file: 'Jingle_Bell_Rock.mp3',
+      }],
+    },
+  },
+  {
+    day: 3,
+    en: {
+      userID: '307678885942657046',
+      data: `アドベントカレンダー2023年12月28日 （木）
+  
+      今年、新しいことをたっくさんやってみた。例えば、このサーバーを入ったり新しい友達を作ったりできた！でも、年末にももっともっと新しいことをやり続けたかったんだ。だから、アドベントカレンダーを見たら、日本語能力を伸ばすためにピッタリだと思った。アドベントカレンダーを参加したことがないから、投稿にも何か新しいことをやってみたほうがいいんじゃないかなって思ってた。短編小説を書いてみることに決めた。マジで難しかったし間に合うかわからなかったが、モカちゃんのアドバイスと初心者チャットのみんなのおかげでなんとなくできたー！すごく楽しくて、いっぱい勉強になった。来年も、日本語で書いたことないものをまた書いてみたいと思う。詩とか、歌詞とか……たくさんあるね！とにかく、みんな、いいお正月を！来年もよろしく！`,
+      attachments: [{
+        type: 'image',
+        file: '28-1.png',
+        isUnbound: true,
+      }, {
+        type: 'image',
+        file: '28-2.png',
+        isUnbound: true,
+      }, {
+        type: 'image',
+        file: '28-3.png',
+        isUnbound: true,
+      }],
+    },
+    jp: {
+      userID: '221167310986149888',
+      data: `私の今年のアドベントカレンダーは行書で書いてみました。<:pikaoh:585692739832643604>`,
+      attachments: [{
+        type: 'image',
+        file: 'Scan_20231214_FUll.png',
+        isUnbound: true,
+      }],
+    },
+  },
+]
+
+/**
 const entries: Entry[] = [
   {
     isAnnoucement: true,
@@ -117,7 +307,8 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
   {
     
     userID: '732607156129497160',
-    day: 2,
+    day: 1,
+    lang: 'en',
     data: `おはようございます！
     今年はすみます。来年来ますけど。チェックリストつくりますか？新年の抱負？私はしません、でも上に「勉強」有ります！私は勉強延び延びですよ。
     新年の抱負作りましょう。何になりたい？小さい目標始めます、そして大きい止めます。意欲は大切ですね。
@@ -843,5 +1034,7 @@ You’ll be given permissions to post a submission in <#1177901768311590952> on 
     attachments: [],
   },
 ]
+
+**/
 
 export default entries

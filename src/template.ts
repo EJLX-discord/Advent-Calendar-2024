@@ -1,6 +1,6 @@
-import Handlebars from "handlebars";
+import Handlebars from "handlebars"
 
-import users from './users';
+import users from './users'
 
 let globalCounter = 1
 
@@ -11,7 +11,7 @@ export default (handlebars: typeof Handlebars) => {
   })
 
   Handlebars.registerHelper('dayToDOW', (day: number) => {
-    const DOW = ['金', '土', '日', '月', '火', '水', '木']
+    const DOW = ['日', '月', '火', '水', '木', '金', '土']
     return DOW[(day - 1) % 7]
   })
 
@@ -21,30 +21,62 @@ export default (handlebars: typeof Handlebars) => {
     return nextID
   })
 
+  Handlebars.registerHelper('sequence', function(n: number, options: Handlebars.HelperOptions) {
+    const out = []
+    const data = Handlebars.createFrame(options.data);
+    for(let i = 0; i < n; ++i) {
+      data.index = i + 1;
+      out.push(options.fn(i, { data }))
+    }
+    return out.join('')
+  });
+
   const helmetPartial = Handlebars.registerPartial(
     'helmet', 
     `<head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width" />
-      <title>EJLX Advent Calendar 2023</title>
+      <title>EJLX Advent Calendar 2024</title>
       <link href="styles/index.css" rel="stylesheet" />
       <link href="styles/discord-components.css" rel="stylesheet" />
-      <script async src="scripts/back-to-top-button.js"></script>
       <script async src="scripts/image-zoomer.js"></script>
-      <script async src="scripts/copy-link-button.js"></script>
     </head>`
+  )
+
+  const calendarPartial = Handlebars.registerPartial(
+    'calendar',
+    `<div class="calendar-container">
+      <div class="calendar-dow-row">
+        {{#sequence 7}}
+          <div class="calendar-dow-entry">{{dayToDOW @index}}</div>
+        {{/sequence}}
+      </div>
+      <div class="calendar-days">
+        {{#sequence 31}}
+          <a id="calendar-day-btn-{{@index}}" class="calendar-day-entry calendar-link" href="#entry-{{@index}}">{{@index}}</a>
+        {{/sequence}}
+        {{#sequence 4}}
+          <div class="calendar-day-entry"></div>
+        {{/sequence}}
+      </div>
+    </div>`
   )
 
   const headerPartial = Handlebars.registerPartial(
     'header', 
     `<header class="page-header">
-    <div class="page-header-content">
-      <div class="page-header-title">EJLX Advent Calendar<br><span class="page-header-title-year">2023<span></div>
-      <div class="page-header-button-container">
-        <a href="https://ejlx-discord.github.io/Advent-Calendar-Hub/" class="page-header-button">Other Years</a>
-        <a href="https://discord.gg/japanese" class="page-header-button">Join the Server</a>
+      <div class="page-header-inner-container">
+        <div class="page-header-content">
+          <div class="page-header-title"><span class="page-header-ejlx">EJLX</span><br>Advent Calendar<br><span class="page-header-title-year">2024<span></div>
+          <div class="page-header-button-container">
+            <a href="https://ejlx-discord.github.io/Advent-Calendar-Hub/" class="page-header-button">Other Years</a>
+            <a href="https://discord.gg/japanese" class="page-header-button">Join the Server</a>
+          </div>
+        </div>
+        <div class="page-header-calendar-container">
+          {{>calendar}}
+        </div>
       </div>
-    </div>
     </header>`
   )
 
@@ -106,31 +138,33 @@ export default (handlebars: typeof Handlebars) => {
     </div>`
   )
 
-  const entryHeaderPartial = Handlebars.registerPartial(
-    'entryHeader',
-    `<div class="entry-header">
+  const dayHeader = Handlebars.registerPartial(
+    'dayHeader',
+    `<div class="day-header">
       {{#if day}}
-        <div class="entry-header-calendar-info">
-          <span>Day {{day}}</span>
-          <span>{{dayToDOW day}}</span>
+        <div class="day-header-sticky">
+          <div>{{day}}</div>
+          <div>{{dayToDOW day}}</div>
         </div>
       {{else}}
-        <div class="entry-header-annoucement">
-          Annoucement
+        <div class="day-header-sticky">
+          <div>発</div><div>表</div>
         </div>
       {{/if}}
-      <div class="entry-header-user-info">
-        {{#if user.serverAvatar}}
-          <img class="entry-header-server-avatar" src="users/{{user.serverAvatar}}" />
-        {{/if}}
-        <img class="entry-header-global-avatar" src="users/{{user.globalAvatar}}" />
-        <div class="entry-header-text">
-          <div class="entry-header-server-nickname">{{user.serverNickname}}</div>
-          <div class="entry-header-global-info">
-            <span class="entry-header-global-nickname">{{user.globalNickname}}</span>
-            <span class="entry-header-global-username">{{user.globalUsername}}</span>
-            {{#if user.pronouns}}<span class="entry-header-pronouns">{{user.pronouns}}</span>{{/if}}
-          </div>
+    </div>`
+  )
+
+  const userInfoBar = Handlebars.registerPartial(
+    'user-info-bar',
+    `<div class="entry-header-user-info">
+      {{#if user.serverAvatar}}
+        <img class="entry-header-server-avatar" src="users/{{user.serverAvatar}}" />
+      {{/if}}
+      <img class="entry-header-global-avatar" src="users/{{user.globalAvatar}}" />
+      <div class="entry-header-text">
+        <div class="entry-header-server-nickname">{{user.serverNickname}}</div>
+        <div class="entry-header-global-info">
+          {{#if user.pronouns}}<span class="entry-header-pronouns">{{user.pronouns}}</span>{{/if}}
         </div>
       </div>
     </div>`
@@ -141,17 +175,61 @@ export default (handlebars: typeof Handlebars) => {
     `<div class="entry{{#if isAnnoucement}} entry-annoucement{{/if}}"
         {{#if day}}id="entry-{{day}}"{{/if}}
         {{#if isAnnoucement}}id="entry-annoucement-{{getNextID}}"{{/if}}>
-      {{>entryHeader user=(getUser userID) day=day}}
-      <div class="entry-content{{#if isOnlyEmojis}} entry-emoji-only{{/if}}">
-        {{#each nodes}}{{> (lookup . 'type') }}{{/each}}
-      </div>
-      {{#if attachments}}
-      <div class="entry-attachment-container">
-        {{#each attachments}}
-          {{> (lookup . 'type') }}
-        {{/each}}
-      </div>
-      {{/if}}
+        {{>dayHeader day=day}}
+        <div class="entry-pair-container">
+          {{#if annoucement}}
+          <div class="entry-content-column" id="entry-annoucement-{{day}}">
+            {{>user-info-bar user=(getUser annoucement.userID)}}
+            <div class="entry-content{{#if annoucement.isOnlyEmojis}} entry-emoji-only{{/if}}">
+              {{#each annoucement.data}}{{> (lookup . 'type') }}{{/each}}
+            </div>
+            {{#if annoucement.attachments}}
+              <div class="entry-attachment-container">
+                {{#each annoucement.attachments}}
+                  {{> (lookup . 'type') }}
+                {{/each}}
+              </div>
+            {{/if}}
+          </div>
+          {{/if}}
+          {{#if en}}
+          <div class="entry-content-column" id="entry-en-{{day}}">
+            {{>user-info-bar user=(getUser en.userID)}}
+            <div class="entry-content{{#if en.isOnlyEmojis}} entry-emoji-only{{/if}}">
+              {{#each en.data}}{{> (lookup . 'type') }}{{/each}}
+            </div>
+            {{#if en.attachments}}
+              <div class="entry-attachment-container">
+                {{#each en.attachments}}
+                  {{> (lookup . 'type') }}
+                {{/each}}
+              </div>
+            {{/if}}
+          </div>
+          {{/if}}
+          {{#if jp}}
+          <div class="entry-content-column" id="entry-jp-{{day}}">
+            {{>user-info-bar user=(getUser jp.userID)}}
+            <div class="entry-content{{#if jp.isOnlyEmojis}} entry-emoji-only{{/if}}">
+              {{#each jp.data}}{{> (lookup . 'type') }}{{/each}}
+            </div>
+            {{#if jp.attachments}}
+              <div class="entry-attachment-container">
+                {{#each jp.attachments}}
+                  {{> (lookup . 'type') }}
+                {{/each}}
+              </div>
+            {{/if}}
+          </div>
+          {{/if}}
+        </div>
+    </div>`
+  )
+
+  const bottomBarPartial = Handlebars.registerPartial(
+    'bottom-bar',
+    `<div class="bottom-bar-container">
+      <a href="#">Back to Top</a>
     </div>`
   )
 
@@ -163,9 +241,10 @@ export default (handlebars: typeof Handlebars) => {
       {{>header}}
       <div class="entry-container">
         {{#each entries}}
-        {{>entry nodes=data}}
+        {{>entry en=en jp=jp}}
         {{/each}}
       </div>
+      {{>bottom-bar}}
     </body>
   </html>
   `)

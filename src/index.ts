@@ -4,7 +4,7 @@ import { minify } from 'html-minifier-terser'
 import fs from 'node:fs'
 import path from 'node:path'
 
-import entries, { type Entry } from './data/entries';
+import entries, { EntryData, type Entry } from './data/entries';
 import { channelMap, userMap } from "./data/mappings";
 
 import createTemplate from './template'
@@ -164,7 +164,7 @@ function mapUserIDsToName(nodes: ReturnType<typeof parse>): string[] {
 }
 
 /** Print all the emoji IDs that do not have a mapping to console */
-function annouceMissingEmojiFiles(missingFiles: string[]) {
+function annouceMissingEmojiFiles(missingFiles: String[]) {
   if (missingFiles.length <= 0) return;
   console.log('The following emoji files were not found. They will be replaced with a placeholder in the final output.')
   for (const missingFile of missingFiles) {
@@ -174,7 +174,7 @@ function annouceMissingEmojiFiles(missingFiles: string[]) {
 }
 
 /** Print all the channel IDs that do not have a mapping to console */
-function annouceUnmappedChannels(unmappedIDs: string[]) {
+function annouceUnmappedChannels(unmappedIDs: String[]) {
   if (unmappedIDs.length <= 0) return;
   console.log('The following channel IDs did not have a mapping. Please add one to the mapping file.')
   for (const unmappedID of unmappedIDs) {
@@ -183,7 +183,7 @@ function annouceUnmappedChannels(unmappedIDs: string[]) {
 }
 
 /** Print all the user IDs that do not have a mapping to console */
-function annouceUnmappedUsers(unmappedIDs: string[]) {
+function annouceUnmappedUsers(unmappedIDs: String[]) {
   if (unmappedIDs.length <= 0) return;
   console.log('The following user IDs did not have a mapping. Please add one to the mapping file.')
   for (const unmappedID of unmappedIDs) {
@@ -192,16 +192,44 @@ function annouceUnmappedUsers(unmappedIDs: string[]) {
 }
 
 async function main() {
-  const parsedEntries = entries.map((entry) => ({ ...entry, data: parse(entry.data, 'extended') }))
+  const parsedEntries: Entry[] = entries.map((entry) => {
+    const parsedJp = entry.jp && parse(entry.jp.data, 'extended')
+    const parsedEn = entry.en && parse(entry.en.data, 'extended')
+    const parsedAnnoucement = entry.annoucement && parse(entry.annoucement.data, 'extended')
+    
+    return {
+      ...entry,
+      ...(entry.en && {en: {
+        ...entry.en,
+        data: parsedEn,
+      }}),
+      ...(entry.jp && {jp: {
+        ...entry.jp,
+        data: parsedJp,
+      }}),
+      ...(entry.annoucement && { annoucement: {
+        ...entry.annoucement,
+        data: parsedAnnoucement,
+      }}),
+    }
+  })
+
   const missingEmojiFiles: string[] = []
   const unmappedChannelIDs: string[] = []
   const unmappedUserIDs: string[] = []
-  parsedEntries.forEach(entryData => {
+
+  function processEntryData(entryData: EntryData) {
     entryData.data = coalesceTextNodes(entryData.data)
     convertTextNodesToHeadingsInPlace(entryData.data)
     missingEmojiFiles.push(...markMissingEmojiFiles(entryData.data))
     unmappedChannelIDs.push(...mapChannelIDsToName(entryData.data))
     unmappedUserIDs.push(...mapUserIDsToName(entryData.data))
+  }
+
+  parsedEntries.forEach(entryData => {
+    if (entryData.en) { processEntryData(entryData.en) }
+    if (entryData.jp) { processEntryData(entryData.jp) }
+    if (entryData.annoucement) { processEntryData(entryData.annoucement) }
   })
   annouceMissingEmojiFiles(missingEmojiFiles)
   annouceUnmappedChannels(unmappedChannelIDs)

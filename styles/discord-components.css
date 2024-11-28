@@ -140,6 +140,8 @@
 .d-attachment-audio-container {
   padding: 12px;
   width: 100%;
+  flex: 1 1 100%;
+  
 }
 
 .d-attachment-audio-title {
