@@ -4,7 +4,7 @@ import { minify } from 'html-minifier-terser'
 import fs from 'node:fs'
 import path from 'node:path'
 
-import entries, { EntryData, type Entry } from './data/entries';
+import entries, { EntryData, ParsedEntryData, type Entry } from './data/entries';
 import { channelMap, userMap } from "./data/mappings";
 
 import createTemplate from './template'
@@ -93,6 +93,20 @@ function coalesceTextNodes(nodes: ReturnType<typeof parse>) {
     textNodes = []
   }
   return coalescedNodes
+}
+
+/**
+ * If a message contains nothing but emoji items, mark the emojis as a large emoji
+ */
+function markLargeEmojisInPlace(nodes: ReturnType<typeof parse>) {
+  for (const node of nodes) {
+    if (node.type !== 'emoji') {
+      return;
+    }
+  }
+  for (const node of nodes) {
+    node.isLarge = true
+  }
 }
 
 /** 
@@ -191,11 +205,16 @@ function annouceUnmappedUsers(unmappedIDs: String[]) {
   }
 }
 
+function parseEntryData(entryData: EntryData | undefined) {
+  if (!entryData) return undefined
+  return entryData.data.map(text => parse(text, 'extended'))
+}
+
 async function main() {
-  const parsedEntries: Entry[] = entries.map((entry) => {
-    const parsedJp = entry.jp && parse(entry.jp.data, 'extended')
-    const parsedEn = entry.en && parse(entry.en.data, 'extended')
-    const parsedAnnoucement = entry.annoucement && parse(entry.annoucement.data, 'extended')
+  const parsedEntries: ParsedEntry[] = entries.map((entry) => {
+    const parsedJp = parseEntryData(entry.jp)
+    const parsedEn = parseEntryData(entry.en)
+    const parsedAnnoucement = parseEntryData(entry.annoucement)
     
     return {
       ...entry,
@@ -218,12 +237,15 @@ async function main() {
   const unmappedChannelIDs: string[] = []
   const unmappedUserIDs: string[] = []
 
-  function processEntryData(entryData: EntryData) {
-    entryData.data = coalesceTextNodes(entryData.data)
-    convertTextNodesToHeadingsInPlace(entryData.data)
-    missingEmojiFiles.push(...markMissingEmojiFiles(entryData.data))
-    unmappedChannelIDs.push(...mapChannelIDsToName(entryData.data))
-    unmappedUserIDs.push(...mapUserIDsToName(entryData.data))
+  function processEntryData(entryData: ParsedEntryData) {
+    entryData.data = entryData.data.map(d => coalesceTextNodes(d))
+    entryData.data.forEach(d => {
+      convertTextNodesToHeadingsInPlace(d)
+      markLargeEmojisInPlace(d)
+      missingEmojiFiles.push(...markMissingEmojiFiles(d))
+      unmappedChannelIDs.push(...mapChannelIDsToName(d))
+      unmappedUserIDs.push(...mapUserIDsToName(d))
+    })
   }
 
   parsedEntries.forEach(entryData => {

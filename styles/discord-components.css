@@ -36,6 +36,16 @@
   height: 1.5rem;
 }
 
+.d-emoji-large {
+  width: 70px;
+  height: 70px;
+}
+
+.d-emoji-large > img {
+  width: 70px;
+  height: 70px;
+}
+
 .d-autolink, .d-url, .d-link {
   text-decoration: underline;
   color: #518E61;

@@ -29,7 +29,16 @@ export default (handlebars: typeof Handlebars) => {
       out.push(options.fn(i, { data }))
     }
     return out.join('')
-  });
+  })
+
+  Handlebars.registerHelper('eachChar', function(str: string, options: Handlebars.HelperOptions) {
+    const chars = (str + '').split('')
+    const result = []
+    chars.forEach(c => {
+      result.push(options.fn(c))
+    })
+    return result.join('')
+  })
 
   const helmetPartial = Handlebars.registerPartial(
     'helmet', 
@@ -98,9 +107,9 @@ export default (handlebars: typeof Handlebars) => {
     {{#if isMissing}}
       <span class="d-emoji-text">&lt:{{name}}:{{id}}&gt:</span>
     {{else if animated}}
-      <span class="d-emoji d-emoji-animated"><img src="emojis/{{id}}.gif" width="50" height="50" /></span>
+      <span class="d-emoji d-emoji-animated{{#if isLarge}} d-emoji-large{{/if}}"><img src="emojis/{{id}}.gif" /></span>
     {{else}}
-      <span class="d-emoji"><img src="emojis/{{id}}.png" width="50" height="50" /></span>
+      <span class="d-emoji{{#if isLarge}} d-emoji-large{{/if}}"><img src="emojis/{{id}}.png" /></span>
     {{/if}}
     `
   )
@@ -143,12 +152,12 @@ export default (handlebars: typeof Handlebars) => {
     `<div class="day-header">
       {{#if day}}
         <div class="day-header-sticky">
-          <div>{{day}}</div>
-          <div>{{dayToDOW day}}</div>
+          <div class="day-header-dow-text">{{dayToDOW day}}</div>
+          <div class="day-header-day-text">{{#eachChar day}}{{this}}{{/eachChar}}</div>
         </div>
       {{else}}
         <div class="day-header-sticky">
-          <div>発</div><div>表</div>
+          <div>お</div><div>知</div><div>ら</div><div>せ</div>
         </div>
       {{/if}}
     </div>`
@@ -178,10 +187,14 @@ export default (handlebars: typeof Handlebars) => {
         {{>dayHeader day=day}}
         <div class="entry-pair-container">
           {{#if annoucement}}
-          <div class="entry-content-column" id="entry-annoucement-{{day}}">
+          <article class="entry-content-column" id="entry-annoucement-{{day}}">
             {{>user-info-bar user=(getUser annoucement.userID)}}
-            <div class="entry-content{{#if annoucement.isOnlyEmojis}} entry-emoji-only{{/if}}">
-              {{#each annoucement.data}}{{> (lookup . 'type') }}{{/each}}
+            <div class="entry-content">
+              {{#each annoucement.data}}
+                <p class="entry-content-block">
+                  {{#each this}}{{> (lookup . 'type') }}{{/each}}
+                </p>
+              {{/each}}
             </div>
             {{#if annoucement.attachments}}
               <div class="entry-attachment-container">
@@ -190,13 +203,16 @@ export default (handlebars: typeof Handlebars) => {
                 {{/each}}
               </div>
             {{/if}}
-          </div>
+          </article>
           {{/if}}
           {{#if en}}
-          <div class="entry-content-column" id="entry-en-{{day}}">
+          <article class="entry-content-column" id="entry-en-{{day}}">
             {{>user-info-bar user=(getUser en.userID)}}
-            <div class="entry-content{{#if en.isOnlyEmojis}} entry-emoji-only{{/if}}">
-              {{#each en.data}}{{> (lookup . 'type') }}{{/each}}
+            <div class="entry-content">
+              {{#each en.data}}
+                <p class="entry-content-block">
+                  {{#each this}}{{> (lookup . 'type') }}{{/each}}
+                </p>              {{/each}}
             </div>
             {{#if en.attachments}}
               <div class="entry-attachment-container">
@@ -205,13 +221,17 @@ export default (handlebars: typeof Handlebars) => {
                 {{/each}}
               </div>
             {{/if}}
-          </div>
+          </article>
           {{/if}}
           {{#if jp}}
-          <div class="entry-content-column" id="entry-jp-{{day}}">
+          <article class="entry-content-column" id="entry-jp-{{day}}">
             {{>user-info-bar user=(getUser jp.userID)}}
-            <div class="entry-content{{#if jp.isOnlyEmojis}} entry-emoji-only{{/if}}">
-              {{#each jp.data}}{{> (lookup . 'type') }}{{/each}}
+            <div class="entry-content">
+              {{#each jp.data}}
+                <p class="entry-content-block">
+                  {{#each this}}{{> (lookup . 'type') }}{{/each}}
+                </p>              
+              {{/each}}
             </div>
             {{#if jp.attachments}}
               <div class="entry-attachment-container">
@@ -220,7 +240,7 @@ export default (handlebars: typeof Handlebars) => {
                 {{/each}}
               </div>
             {{/if}}
-          </div>
+          </article>
           {{/if}}
         </div>
     </div>`
@@ -229,7 +249,9 @@ export default (handlebars: typeof Handlebars) => {
   const bottomBarPartial = Handlebars.registerPartial(
     'bottom-bar',
     `<div class="bottom-bar-container">
-      <a href="#">Back to Top</a>
+      <div class="bottom-bar-button-group">
+        <a href="#">Back to Top</a>
+      </div>
     </div>`
   )
 
