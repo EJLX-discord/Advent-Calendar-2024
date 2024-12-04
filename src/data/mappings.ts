@@ -9,4 +9,5 @@ export const channelMap: Record<string, string> = {
 export const userMap: Record<string, string> = {
   '128369934857273344': 'ESPAlchemist',
   '297635569041801217': 'a.oi',
+  '681475127208312854': 'Perry【訂正お願い😭😭】',
 }

@@ -163,7 +163,9 @@ body {
   flex-direction: row;
   width: 100%;
   flex-wrap: wrap;
-  padding-bottom: 16px;
+  padding-top: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ededed;
 }
 
 .entry:first-of-type {
