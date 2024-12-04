@@ -10,6 +10,10 @@
   font-size: 1.1rem;
 }
 
+.d-subtext {
+  color: #777;
+}
+
 .d-underline {
   text-underline-offset: 4px;
 }

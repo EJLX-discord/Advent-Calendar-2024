@@ -53,6 +53,10 @@ function convertTextNodesToHeadingsInPlace(nodes: ReturnType<typeof parse>) {
           node.level = numOctothorpes
         }
       }
+      if (trimmedString.startsWith('-# ')) {
+        node.content = trimmedString.substring(3)
+        node.type = 'subtext'
+      }
     } else if ("content" in node && Array.isArray(node.content)) {
       convertTextNodesToHeadingsInPlace(node.content)
     }

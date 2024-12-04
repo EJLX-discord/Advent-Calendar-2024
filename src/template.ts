@@ -92,6 +92,7 @@ export default (handlebars: typeof Handlebars) => {
   const brPartial = Handlebars.registerPartial('br', '<br class="d-br">')
   const textPartial = Handlebars.registerPartial('text', '<span class="d-text">{{content}}</span>')
   const headingPartial = Handlebars.registerPartial('heading', '<h{{level}} class="d-heading-{{level}}">{{content}}</h{{level}}>')
+  const subtextPartial = Handlebars.registerPartial('subtext', '<sub class="d-subtext">{{content}}</sub>')
   const emPartial = Handlebars.registerPartial('em', `<em class="d-em">{{#each content}}{{> (lookup . 'type') }}{{/each}}</em>`)
   const strongPartial = Handlebars.registerPartial('strong', `<strong class="d-strong">{{#each content}}{{> (lookup . 'type') }}{{/each}}</strong>`)
   const strikethroughPartial = Handlebars.registerPartial('strikethrough', `<s class="d-strikethrough">{{#each content}}{{> (lookup . 'type') }}{{/each}}</s>`)
