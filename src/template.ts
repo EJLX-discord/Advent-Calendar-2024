@@ -49,6 +49,11 @@ export default (handlebars: typeof Handlebars) => {
       <link href="styles/index.css" rel="stylesheet" />
       <link href="styles/discord-components.css" rel="stylesheet" />
       <script async src="scripts/image-zoomer.js"></script>
+      <meta content="EJLX Advent Calendar 2024" property="og:title" />
+      <meta content="Archive Site for Advent Calendar Entries for 2024!" property="og:description" />
+      <meta content="https://ejlx-discord.github.io/Advent-Calendar-2024/" property="og:url" />
+      <meta content="https://ejlx-discord.github.io/Advent-Calendar-2024/emojis/1312553682193092608.png" property="og:image" />
+      <meta content="#43B581" data-react-helmet="true" name="theme-color" />
     </head>`
   )
 
