@@ -304,6 +304,193 @@ Ankiでも終わるにはかなりの時間がかかる。<:potatosad:5861298776
 ハッピーホリデーズ！！ 🎄 <a:birbwave:1314045434053922846>`],
     },
   },
+  {
+    day: 7,
+    jp: {
+      userID: '787800841469820992',
+      data: [`２０２４年の新年私は自分にアートを作る約束をしたけど年の瀬を迎えて私はアートを作ることより心配することを時間をかけていました。従って、年内はアートをしますそして来年ではアートを作りながら楽しむことのために心配してみません`],
+    },
+  },
+  {
+    day: 8,
+    en: {
+      userID: '546655889415864330',
+      data: [`2024/12/08
+
+This morning, I joined the monthly English Studying Club's meeting in this town. There, an elderly person (I call him Mr. Y) gave us some handout papers that contained an autobiography about him, and also some scrapped articles from the Internet and newspaper, which were about the so-called "Kamikaze" and the Pacific War. Mr. Y asked us one question; "What is the day today, everybody?"
+
+"The day John Lennon had passed away..." I answered.
+
+"No way! Today is the day Japan had lost THE WAR", Mr. Y answered to us. "How do you think about THE WAR?" And he started telling his theories such as how Japan could have been innocent (in contrast, how the US could have been very tactical) and also how he has been feeling that learning English to understand other countries people's minds could be very, very important. After that great confession, Mr. Y asked us; "Why do you learn English? Just to pass through any exams? In my opinion, we should..." etc.
+
+You might feel anger simply because of his too-one-sided attitude or opinion itself. If I were 10 years younger, I would feel very angry (and probably, I would choose not to attend this meeting anymore). However, sincerely (from the bottom of my heart), today I felt that question was a very important one, and also felt that I should accept this question as preciously as possible. In other words, for me, Mr. Y's very passionate and diligent attitude he ANYTIME shows to us seemed to be worthy of being respected well. I'm not telling you any lie about this (even though I am autistic).
+
+I have to say sorry about posting this controversial topic. You can have your opinion (my DM status is basically open). What I want to tell you is this today's event reminded me of the primal motivation for learning English. In my case, I have been doing that because somewhere in my mind I want to understand what other people are saying (in a way, it can mean exactly the same as what THE WORLD is saying) to us.`,
+`As an autistic guy, I always have to struggle with having such very primal communication with anyone, so probably this desire toward understanding has been created. So, if I could tell him my opinion as my answer, I would tell him like this. "I want to understand YOU. It seems our opinions must be opposite to each other, however, your opinion must have come from your precious, honest life experiences and also the personality you own, and mine too. I respect you, even though for you I am just a too-young guy. Within your head, there must be a cluster of various ideas that lead us all. I want to learn from YOU.
+
+TBH, I had another topic for this advent calendar 2024. But, I have decided to share today's true story (yes, based on my pretty plain life I've always been writing in the language-switch channel), and am interested in what YOU have in your minds.
+
+Dreaming for world peace from Japan.`,
+`By throbbing disco cat.`],
+    },
+    jp: {
+      userID: '294441472864944129',
+      data: [`みなさん、こんにちは。
+今日は僕の出番が来た。
+書いてみたかった話題は将来の話。
+
+二年前、アドカレを最後に投稿したとき、ワーホリビザで日本にいてた。🇯🇵
+帰国してからもう一年半が経って、大学院生になった。
+そろそろ最終学期が始まり、というか一月15日ギリシャのアテネ市に行くことになってワクワクしてる。🇬🇷 ギリシャ語は初級まで習ったけど、同級生の協力に頼ってる。(フランス語上級のギリシャ出身) 
+なぜなら、大学院生になった以来、休み時間はほとんどなかったんだ。確かに留学のことも「休み」と呼ばれないだろうと思ってるんだけど、これで2023年7月から最初の海外旅行のきっかけになる。今年の夏休みは旅行に行けばよかったんだけど、3ヶ月フランス語の教師のインターンシップにつとめていた。実務経験としてはすごく面白かったから、別に構わなかった。🧑‍🏫
+
+修士号を取得するのに論文を書かなくてはならない。取得したら、日本で就職活動をしたいと思って、来年はきっと観光ビザでも日本に戻ることに決まっている。🛫🇯🇵
+実は、ここからでも念のため色々な学校に連絡をしといた。📝
+
+できるだけ日本語能力試験を受けたいと思うんだけど、忙しいから準備はちゃんとできていないためまだ登録してない。
+
+忙しくてもガスパーちゃん (アバターの猫ちゃん 🐈) がこないだ亡くなっちゃっても去年の同じ時期と比べて気分がいい。この修士号に決まってよかったからだ。<:yotsubaYay:743808226520203276> 
+
+みなさん、今度もよろしくお願いします。<:bow3:702412219526414406>`],
+    }
+  },
+  {
+    day: 9,
+    en: {
+      userID: '380341436953919488',
+      data: [`**EJLX Advent Calendar on  December 9th 2024**
+
+Hello, I’m yosyuku.
+I’d like to look back on 2024 over four personal events.
+And I’m grateful if you would correct my expression.
+Thank you in advance. 
+
+1. Went to Firework Display in Utsunomiya (Tochigi Prefecture, Kanto Area)
+    Preschool children designed their own fireworks and those were fired when each of them shouts, ‘My firework, go up!’ one after the other. It was amazing.
+    I visited Utsunomiya with Discord friends. Everyone was new people for me in person. Wow.
+
+2. Read through William Faulkner’s Light in August (translated in Japanese, of course!)
+    I like literature especially novels. Light in August was published in 1932. That was a year when my parents were born. I read this novel in new translation. The publisher is Kohbunsha. It’s not Iwanami nor Shinchoh. This novel made me remember the fact there was the Civil War in America. Faulkner’s storytelling is like big tires start to rolling, speed up and run away in a large momentum. I was left here in daze. I highly recommend it. I read Gabriel Garcia Marquez’s One Hundred Years of Solitude, too. Both of them were brilliant. I feel lucky because I can read these novels in Japanese. But I know there is something lost by translation.
+
+3. Re-opened my personal website
+    After 18 years of silence, I bought my domain and re-opened my website. It has Japanese and English pages. The old site didn’t have English pages. It’s my diary and updated every night in JST. Visual Studio Code helps me a lot. I used to edit html files with Apple's SimpleText in 2001. I like writing. However, I’m using translator on English pages at the moment. I’m afraid of people here regard this as an advertisement of my website. But I never intend to.`,
+  `4. Changed jobs
+    New people and new work, but I’m the same. The same coward me. Is there anyone who read the book titled 'Leadership and Self-deception : Getting Out of the Box’? In the box, it’s dark and narrow. I must get out of it. Or I need to accept myself as it is. Nobody is perfect. That sounds like an easy`,
+  `excuse. I just want to be better than myself one second earlier.`,
+  `(I noticed the sentence hasn't ended properly)`]
+    },
+    jp: {
+      userID: '688465754516881622',
+      data: [`# アドベントカレンダー2024年12月９日
+-- 
+> 来年が来るので、この俳句の４つで僕は生活のことを考えます。今年はA Levelsからもっと忙しくなりました。私八方美人であることはやめて、自分一人で生きるほうがいいと思います。
+## （冬）
+短日か
+海から風は
+吹いてるし
+## （春）
+変更や
+はえを感じる
+芝生けり
+## （夏）
+若菜に
+休みに行くか
+友達と
+## （秋）
+嘘紅葉
+アイデンティティは
+変わったか`,]
+    }
+  },
+  {
+    day: 10,
+    en: {
+      userID: '654560680426471424',
+      data: [`Ramen recipe
+<a:AquaJamming:815723139346202684> ･･･---･･･ -･-･･ ･･ –･ -･-･･ ･･ –･
+Ingredients 
+Noodle 1 serving 
+
+Kaeshi 15 to 20 ml
+Soy sauce 80cc
+Mirin 10cc
+Sake 10cc
+
+char shu
+pork belly block 500g
+seasoningA
+soy sauce 200cc
+sake 100cc
+mirin 100cc
+honey tbsp2
+garlic paste tsp1
+ginger paste tsp1
+
+
+Vegetables soup 300ml
+soy sprouts 
+Cabbage 
+Umami seasoning 5g
+Garlic paste to taste 
+Chinese seasoning paste 20g
+lard 5g
+
+-･-･･ ･･ –･ -･-･･ ･･ –･　･ -･･･ ･･-･･ ･･---<a:KoroneCheerFast:855180891705966633> 
+
+Instructions 
+〇Kaeshi 
+Pour the soy sauce and mirin and sake in a pot 
+Cook off the alcohol by mirin and sake.
+Pour in another container 
+〇char shu
+stab the pork a lot
+put the pork in the ziplock
+pour seasoningA in the ziplock
+close the ziplock(remove the air)
+knead it a lot
+I wanna be happy
+pork transfer to heat-resistant dish
+cover that dish with wrap
+in microwave 500W 1 minutes
+cut that pork
+bake that pork with sauce
+
+〇ramen
+Add a kaeshi and umami seasoning and garlic paste In a bowl(A)
+Boiled vegetables bean sprouts and cabbage 
+Pour that hot water in the bowl(A).
+Add the Chinese seasoning paste in the bowl(A)
+Add the lard in the bowl(A)
+Boiled noodle 
+Drain the noodles water
+Add the noodles in the bowl(A)
+Place the bean sprouts and cabbage on the noodles.
+And then place the char shu on these vegetables as much as you like.
+
+topping
+cheese
+lard
+chilli pepper powder
+garlic
+etcetc
+
+btw today(12/10) is my bonus day so I will check it
+・・・。・・・。
+<:GuraCry:754545718835937331>`],
+    },
+    jp: {
+      userID: '496822929749835786',
+      data: [`# **アドカレ2024年**
+まあ、EJLXで話す時は年寄りと感じるだと思います。今年、just hanging outで話しかける時はいつも初めて話したことの思い出を省みるし、それでいっぱいの仲良くした友達を身近に思います。『まあ、時が早減ったんでしょ』って思いました。来年、成年になって人生はすごく変えるつもりだと思います。お母さんは妊娠してしまって赤ちゃんは十週目です。妊娠のニュースを聞いた時、私は親と同じくらい嬉しくて泣いてしまいました。弟が聞いた時は顎が外れそうになり、飛び跳ねて驚きました。最近、人生はとても忙しく、試験や宿題が日常生活の一部でした。複雑な数学のテストはギリギリ合格でした、でも、電卓使ったの試験は電卓なしの試験よりも難しかったです。だから、日本語の猛勉強はあまりなく、他の言語やギターの練習もできませんでした。日本語の先生が知的にお手伝いしてくれて、文章を日本語っぽく書くようなりました。先生の一番好きなフレーズは「量より質」です。自分で大体たくさんを書いて、壮大な語彙を使って、時々作文ほどが滑らかで流暢ではないの結果です。まあ、年中に便利な文法を学んだり、よく使ったり、作文で書いたりすることにしました。いつも「たくさんの間違いが会ったら、どうするのか？上達しなかったのか？勉強の時間がとうていもったいないことだのか？」って思ってためらっても、言語力を全部出していっぱいな知識を使いこなします。
+
+
+初めての2024年、悪い習慣を断ち切ることを希望します。今年、全部を断ち切らなくても、人生は健康になりました。過去に車で学校に通いましたが、3月マウンテンバイクに乗るようにしてふくらはぎと腿の筋肉がだんだん強くなりました。一週間に一生懸命マウンテンバイクに乗ったせいで、初音ミクのコンサートを見た時、筋肉痛になり、歩くのも走るのも辛くなりました。しかし、お父さんが「一生懸命に力を出して家に帰ったら、汗をたくさんかいて、数日後に遅発性筋肉痛を感じるかもしれない」と言っていました。胸と腿が強くなると聞いた時は、とても嬉しくなり、上達する自信をがさらに高まりました。毎日、父と一緒に走ります、それから腹筋運動と腕立て伏せを10回します。まず、トレーニングが難しくて筋肉がよく痛くなりましたが、運動すれば運動するほど、トレニングが易くなりました。たくさんの断ち切った悪い習慣がありましたが、この二つは目立つだと思います
+
+以上です。短いアドカレの投稿を書かせていただいて誠にありがとうございました。
+
+皆さん！メリークリスマス！良いお年を！`],
+    }
+  },
 ]
 
 export default entries
