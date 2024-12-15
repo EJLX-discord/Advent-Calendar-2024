@@ -311,6 +311,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: stretch;
+  display: none;
 }
 
 .bottom-bar-button-group {
