@@ -39,7 +39,6 @@ const entries: Entry[] = [
     annoucement: {
       userID: '297635569041801217',
       data: [`あ`],
-      attachments: [],
     },
   },
   {
@@ -60,7 +59,6 @@ const entries: Entry[] = [
 私の悪い癖で話がだいぶ脱線してしまったけど、日本語学習の初心者（ビギナー）にスポーツアニメを勧める別の理由は、スポーツアニメで同じ言葉が繰り返し使われたり、同じ文系に当てはまるセリフが多かったりする。だから同じパターンのセリフを、同じ言葉をなんども聞いたりすることで自然な日本語が身に付く。長いアニメほど慣れやすいので、その点も含めてスポーツアニメは初心者に向いている。
 
 来年こそ、みんなでスポーツアニメをたくさん見ましょう！ 🎾 🏐 ⚾ ⚽ 🚴 🥊`],
-      attachments: [],
     },
     en: {
       userID: '1198839768994283610',
@@ -88,7 +86,6 @@ If you’re still reading this, thanks. I’m glad you haven’t died of second-
 
 * \*Names have been changed.*
 `],
-      attachments: [],
     }
   },
   {
@@ -647,6 +644,745 @@ Immersion（リスニングやリーディングを指す総称）が長続き�
 自分の経験談ではありますが、「環境を整える」ことも非常に効果的でした。KindleやiPadを使って小説を読む方であれば、そのデバイスを自分の机に置いたりして、必ず目に入るようにしましょう。YouTubeをよく観る方であれば、日本語用のアカウントと英語用のアカウントを両方作って、自分が勉強したいほうの言語のアカウントを普段使いするようにしましょう。YouTube側もおすすめ動画を合わせてくれるので、「いっぱいリスニングしたい！」という方にはかなり向いている方法ではないかと思います。肝心なのは、自分が勉強したい言語に触れることが何らの努力も必要としない環境を整えることです。
 
 これまでの内容からも察していただけると思いますが、言語学習のような長期的かつ高難易度なことに挑戦するときは、目標を作ってそれを頑張って乗り換えるのではなく、なるべくその目標の達成が楽になるように、最初の一歩を簡単で魅力的なものにして、小さな成功を積み重ねることで自然とその目標に向かって進むようにしましょう。`],
+    },
+  },
+  {
+    day: 17,
+    en: {
+      userID: '295592546938388482',
+      data: [`2024/12/17
+
+It has been nearly 3 years since I joined this server. I remember that the first thing I saw was the advent calendar. I was quite surprised that there is such a server to encourage each other to learn languages. 
+I must say 2024 will be deeply impactful for me. Lots of fun stuff happened, and some sorrowful events, too. 
+
+One of the highlights of this year was two school reunions in the summer. Although this might sound cliche, it was like a dream. On top of the metaphorical sense, you think of straightaway, the fact that the old friends gather in one place, spend just one night and get back to their own daily life is another sense of the dream. It was like a dream structurally. 
+In one of them, I took part in the organising side. After several meetings and planning, we made it happen with success. I actually burst into tears while making the recap video of the event. moved by the fact that everyone had a great time. 
+
+The end of an 8-year relationship is another significant thing. In the summer, my ex-girlfriend opened up about her pain and even indifference towards me earlier this year and proposed the problems we had been omitted to look at. Unfortunately, we couldn’t find a groundbreaking solution that solves the issues immediately. It ended up ending the relationship. Well, at least she already found someone else WHILE I AM STILL PROCESSING THE PAIN. It is not my wish to express hatred against her (because she was once and …still my beloved one), but the moment I saw her status bubble on Instagram saying about her crush, it was as if I had gotten whacked. Really.
+
+Let’s finish this happily, as the advent calendar is meant to be joyful. Even though I had plenty of ups and downs, I am glad that I feel I am becoming a mature grown-up by experiencing pleasant and tragic life events. 
+
+Thank you for letting me be a part of this lovely tradition. I wish you all a happy holiday and a wonderful new year. Let’s keep the positive vibes for next year. Peace!!`],
+    },
+    jp: {
+      userID: '441283734214279178',
+      data: [`**アドベントカレンダー2024年12月17日**
+
+# 麻雀
+
+今年はもうすぐ終わっちゃいますね。去年のアドベントカレンダーを書いたばかりのような気がするけど、もう12月です。来月もう20歳になるって、怖いですよ。やっぱり年を取ったら時間の流れがだんだん速くなりますよね。。
+
+とにかく、麻雀を打ったことがありますか。三ヶ月前、「アカギ」と「咲-Saki-」という麻雀についてのアニメを見て麻雀を打ち始めました。そして秋学期の始まり、大学で人に会うために麻雀部を作りました。Discordサーバーで大学から麻雀に興味がある人がやく40人以上いるし、日本から麻雀牌セットを二つ買って毎週の火曜日に会うようになりました。アメリカでそんなに麻雀打ちがいるってビックリしました。大学以外、シアトルでも大きいクラブがあるそうです。
+
+いつか麻雀を打つチャンスがあれば、ぜひやってみてください。麻雀は運と実力のバランスがいいゲームです。簡単なルールが分かれば、初心者でも勝てるけど、深みがあって強い麻雀打ちになりたいなら効率的な打ち方の理論があります。（僕は全然まだまだですけど。）チェス、将棋、囲碁などはプレーヤーが二人いるけど、麻雀は4人、それとも「三麻」のルールで3人で出来るので、クラブにぴったりのゲームだと思います。
+
+試したいなら、日本語で「雀魂」【じゃんたま】、英語で「Mahjong Soul」というオンラインクライアントで麻雀を打てます。かわいいキャラもいますよ〜 <:IchiThumbsUp:661246864653287430>
+
+去年、大学を始めてやっとリアルで友達に会えるだろうって思っていました。コロナのせいで高校とコミュニティーカレッジをすべてオンラインでやったので、中学校のころからオンラインでしか友達に会いませんでした。ですから、大学に入学したばかりの頃、新しい友達に会うのを楽しみにしていました。でも、転入したので三回生同士達はもう友達グループがいたし、寮でルームメイトがいなかったし、実際は思ったより難しかったです。それで、結局、諦めました。
+
+でも、今年はもう四回生の僕は大学生活が一年間だけ残っているので、何とかしないといけないと思ってます。ですから、麻雀部を毎週やり続けて人に会うために頑張ります。麻雀部を通して新しい人に会えて同じ寮同士と仲良くできてすごく嬉しいです。
+
+皆さん、高校でも大学でも友達を作りにくいなら、先手を取ってください。麻雀でも、勉強サークルでも、ゲームでも、参加を通して友達ができる活動がかならずあるはずです。講義に行くことだけで友達が作れませんよ。人生は短いだから、一所懸命頑張るしかないです。
+
+それでは、以上です。
+
+メリークリスマス、そして良いお年を！ <:roosantayay:640160185779748864>`],
+    },
+  },
+  {
+    day: 18,
+    jp: {
+      userID: '457361778230165510',
+      data: [`2024年12月18日
+
+カチカチ。カチカチ。
+
+「私たちはそんなに早く飾る必要があるの？」
+
+「別に、けど私はこのことがしたい。それで…うん。頑張ってください。」
+
+「ヒイラギさん…」
+
+「さあね。多分サンタさんは私たちの努力を見てくれるよ！」
+
+私はヒイラギさんが木のてっぺんに輝く星を置くのを見た。そしてため息をついた。
+
+「…はい、お姫様。」
+
+「うるさい、ノエル！」
+
+…沈黙。私はストッキングを吊るした。
+
+「ヒイラギさんにとって、今年が初めてのクリスマスなんですか？」
+
+「…うん。なんで聞くの？」
+
+「…何でもない。やっぱり、あなたの幸せを願っているんです。」
+
+「やめろ、ノエル！恥ずかしいよ…」
+
+私たちは笑った。ヒイラギさんは私をみます。
+
+「あのね、ノエル。」
+
+「はい？」　
+
+「…本当に、ありがとう。」
+
+私は言葉に詰まった。
+
+「え？？　なんで？」
+
+「…さあなあ？」
+
+「ヒイラギ！」
+
+いつも、私はクリスマスを気にしない。でも、このクリスマス…
+
+私も楽しみ。
+
+
+
+こんにちは！これは私、アザレアです！17日10時に書いている。そしてちょっと眠い。
+
+実を言うと、私はやる気のある人じゃない。私も働くのが下手です。いつも、私は趣味が干満、一貫性がない。
+
+日本語は私にそのようでした。それを見るのは簡単でしょう？私の書く文は全て怪しい、じゃないか？
+
+でも、この物語を書くのはすごく楽しいよ！本当に。いつか… 私は改善することを願う。
+
+今は12時です。雨が降っている。それは安らかでしょう？
+
+とにかく、読んでくれてありがとう！
+
+私は未来にたのしみ。`],
+    },
+  },
+  {
+    day: 19,
+    jp: {
+      userID: '732607156129497160',
+      data: [`2024年１２月１９日
+
+今年、私は二物語を書きたいましたでもときがありませんでした。 ボンナペティ とメリクリスマス!
+---
+## 親友
+「まあ、週末にモール一緒に行こう！」ランマラはタイプしました。ランマラ自分の友達、アニシャ、五年から知りました。お互いはいつの間にか親友なりました。
+
+「すみません、この週末あたしは忙しいです」。ランマラはこの返事は見込ました。毎週のわけはくれました。
+
+でも、１２月の６日にアニシャの答えは違いました
+「はい、日曜日に映画館へ行こう」。ランマラはたくさん嬉しいでした。あれは踊りちゃった。日曜日はどんどん来ました。興奮してきた。
+
+日曜日来ました。ランマラ玄関に待ってました。彼とアニシャ６時半まで待ってちゃったに意見が纏めました。でも、ランマラは三十分から待ちに待った。
+アニシャは来ました。「どこはいました？」彼女は大声で言った。顔は怒るそうでした。ランマラは彼女がこのように見ません。「え？私はこの場所へいました。意見が纏めました。忘れった？」。アニシャは息をつく。「はい、すいません。じゃ、映画を見られる、私たちは遅いです」
+
+ランマラとアニシャは映画館の後ろに座れました。映画は始めません。ランマラは今日のことを思い出す。アニシャはいつでも優しいと嬉しいでした、そして今急になぜ変わりました？「えっと、家に大丈夫ですか？」アニシャはしばらく黙った。 「はい！大丈夫です！どうでもいいですよ！」。ランマラ答えは見逃した。アニシャは何も隠れます、ランマラと思う。「オケ！」半分冗談で言うました。
+映画の間にアニシャは突然泣きました。「ああ、すみません！」。彼女は映画館から逃げました。ランマラもアニシャのあと従った。
+
+アニシャとランマラは映画館の外に会いました。「なんで急に走った？」「ごめん、気分が悪いでした」
+
+「数ヶ月からあんたのようにしません！あんたの諸問題言ってください！私はあんたの親友ね？そして言ってください！」
+
+アニシャはしばらく考えった。「まあ、言ってます。
+何ヶ月から私は深いな不幸にいます。毎日ベッドから起こしたくない。「なんで学校に行きます？人生の意味はなんですか？明日はだいじょうぶですか？」...このようの問題頭に飛べます。心は重いな感じいます。本当に不幸...」もう泣きっている。
+
+「アニシャ、俺はあんたの親友です… そして、なんで僕にこのことは早い言えない？」アニシャは何も言えません。「聞いて、あんたの生活はわかりません、でも人生に何も問題はあります、俺を教えて。俺はあんたの友達です、あんたは私の一番好き友達ですけど。忘れてない。いつもあんたを助ける。」
+どちらもは一緒にお茶を読みます。`],
+    },
+  },
+  {
+    day: 20,
+    jp: {
+      userID: '1278339688335278181',
+      data: [`2024年12月20日
+
+本日、僕はある夢に基づいた物語をしたいと思います。
+
+質素な館に少年が住んでいた。アントニヌスは出窓のソファに座りながら母が教えたイソップ寓話をペラペラと読んでいた。最後のページを済む最中、彼は今日の晩ご飯で報告をすると命じられたので時間を無駄使いせずに続いた。
+その日はいつも通り、青くて明るかった。垣根越しに広場外の子どもたちが鬼ごっこをやったりしており、時々そちらで集まってがやがやと燥いだ。館の二階の部屋から俯向くアントニヌスは羨ましいと思った。ずっと前から傍にいたのが愛着した縫いぐるみの馬だけしかなかったし、「忙しいから良い子になりなさい」と母に言われるごとに寂しくなったし、彼はあのグループに参加することを望み始めた。しかし、ドアの隣に座る中年の召し使いに近寄り、外に出させようと聞くと、召し使いが丁寧に断った。「アントニヌス様、ご許可なく外にお出ししません」と言った。
+彼は怒り出した。いきなり手にある本を壁に投げ、開けっ放しのドアに駆け寄ろうとした。召し使いが抵抗しようと頑張ったが、年を取ったせいで、いい加減をさせる余裕が無くなって、手から滑らせてしまった。 自由自在になったアントニヌスは階段から下りて廊下に走って、そして門を越して遂に逃げてしまった。
+しかし、手遅れだった。その時点で子どもたちは既に帰っていた。そのため、アントニヌスは走り続けて館からどんどん離れると人に満ちる街路に行き着いてしまった。方向音痴のアントニヌスは自分が迷い込んでいると気づき、気遣いのない人の波に流されるように、街路を歩きながら馬を抱いて泣いた。
+そして、あるお店を通っていた時、歩みをやめた。ガラスの後ろから展示する純白なマネキンのお店で、マネキンの姿勢のと抜群さで目立ち、彼は魅力に引いてお店を入ることにした。
+ドアが軋んだ。その途端、長い口ひげを蓄えたオットマン人のような男が歓喜に出迎えた。その男は店主であり、店内で少年を案内して回った。歩き回ってマネキンの群を見せられたアントニヌスは痺れてじろじろ見てやまないように嬉しくなった。動かずに鑑賞している同時、店主はポケットから針を取り抜き、アントニヌスの腕を掴んだ。突如、雰囲気が悪くなり、アントニヌスが絶叫して必死に逃げ出そうとしていたが、外に声が届かなくて店主の手強さによって阻められた。店主はどっと笑い、針を少年の右目にハマった。奇しくも痛いがなかったが、深海の底まで沈んだパイプのようにじっくり入り込むと、アントニヌスの肌が白くなり、身体が固くなって成長し、動きが厳しくなった。色彩豊かな衣装が散々裂け、縫いぐるみの馬も彼の背中に合併して一緒になった。どんどん人間を失うと、群のようにマネキンに完全になった。喜んだ店主はマネキンを運び、空間のスペースに置いてから階上にあがってソファで仮眠した。
+彼が知らない間に、馬は動いた。`],
+    },
+  },
+  {
+    day: 21,
+    jp: {
+      userID: '185051004763504640',
+      data: [`2024年12月21日
+## 10年前の私へ
+
+君に伝えたいことがいっぱいある。といっても、近頃タイムマシンみたいなものができない限り、この思いは一生届かないだろう。もし届いたのなら、よく聞いて、私の言う通りにしてくれ。だって君は今頃、他の人のことを誰も信じられなくなったのだろう？なら、せめて10年後の自分自身である私のことを信じてみて。
+
+まず、あの娘のことを諦めて。誰のことかって？いいよ、知らないふりしなくても。とにかく、いつまでも引きずるのをやめて。それよりもっと大事なことがあるのだから。あと、お前は世界の中心でもなんでもないのだからいい加減にして。過ぎたことはもう変わらない。無理してすぐ直そうとするより、一旦落ち着いてよく考えて行動して。
+
+あと、周りの人のこと気にしすぎ。もう一回言うけど、君は世界の中心でもなんでもないのだから。自分のことに集中して、しっかりやることやれば、きっと周りからも評価される。目立ちたがりやの君は10年後の今も変わらないから、せめてちゃんとしたやり方で目立って。調子に乗るのもほどほどにね？調子に乗りすぎて躓いて失敗するのが一番ダサいから。
+
+最後に一番大事なことを言うんだけど、自分のことをもっと大事にして。特に食生活と睡眠時間。体力がないとか顔の肌荒れがひどいとか全然筋肉つかないとかは全部ちゃんと食べてちゃんと寝ればそのうち良くなるから。マジで若いうちにしっかりしないと後々（かなり後だけど）響くよ。例えば10年後とか。あと、健康とかもそうだけど、君は自分に自信なさすぎ。色々しくじって全部うまくいかないように見えてしまうのはわかるけど、君は今までよくやったよ。胸を張っていいんだよ。今までの積み重ねはそう容易く消えたりしない。だから頑張ってね。
+
+-# え、ちょっと待って。10年前の私って、日本語できてたっけ？`],
+    },
+  },
+  {
+    day: 22,
+    en: {
+      userID: '1279751293958881281',
+      data: [`Advent Calendar 2024
+December 22
+
+
+Hello guys! How is your Japanese and English learning going?
+
+As for me, I have been waiting for 4 years for that moment to leave Japan, and to live in an English speaking country.
+
+Nearly for 4 years I have used discord for a language exchange app.
+And I was not wrong.
+
+I thought it was the US where I would go to practice English but I couldn't.
+The fee was too expensive. Well, in fact, I was planning to go to Mexico and while being there I thought I would visit the US. However the plane ticket for Mexico was too expensive, gor my budget.
+
+Then I got a sudden idea.
+I asked the travel agency's stuff and she said.
+"It's about 700 USD for a round trip to Sydney, Australia."
+
+It's not too bad.
+The country of Kangaroos and Crocodiles.
+I decided this trip right away.
+"I will take it, madam."
+
+My plane left Japan on 29th November.
+
+And this is one piece of my trip through Australia.`,
+`"Kangaroo Driver"
+
+Terry was an old truck drive of 62 years old from Adelaide, the capital city of South Australia, a hot city.
+
+That day, on Tuesday December 3rd, he was driving his truck from Adelaide to Broken Hill at late night. 
+His truck was a road train, a big one, with 20 tyres.
+
+Highway A32 was like his own garden. He drove on that road so many times in his life, day or night.
+
+That day, it was around 9 PM, near Burra, the first thing happened. A Kangaroo appeared on the right side of the road. On a very quiet Highway, in the  middle of no where.
+They crossed their eyes.
+
+"Oh, lovely friend," said Terry to himself. 
+
+That was quite normal in the area that the drivers encounter wild animals, such as kangaroos, goats or emus, etc.
+
+But that day was different.
+Terry passed his 1st kangaroo and saw the 2nd one. Normally, the truck keep driving even if there come some animals on the road.
+
+That 2nd kangaroo was quite wild, it jumped onto his way, Terry could just avoid it from hitting.
+"Shit, wth!" he shouted.
+
+And the next moment, in his sight in front of him, he saw bunch of kangaroos.
+10 to 12, at least.
+
+"My god," said Terry touching his long beard, with an exited smile.
+
+But as a truck driver, he would never speed down.
+Just sent light signs to avoid them.
+His truck hit one of jumping kangaroos, but not a serious damage.
+
+And after those families of kangaroos, he kept seeing them all night until the town of Broken Hill. 
+
+He even counted how many of them he met that night.
+
+157 kangaroos in a night.
+
+His new record of his life. Probably nearly the Guiness Records.
+
+"That is Australia, my friend," said the truck driver to his Japanese traveler, touching his long beard.`],
+    },
+    jp: {
+      userID: '208546518846799883',
+      data: [`2024年12月22日
+
+もうこの時期ですね、いよいよ年末です。僕は今年もアドベントカレンダーに参加させてもらいます。よろしくお願いします。
+
+皆さんが言語学習を始めたきっかけはなんでしたか？
+
+アニメを字幕なしで観たいとか読みたい漫画と本の翻訳に待ちたくないという理由とモチベーションが多いですね。
+
+僕は特別な理由なく日本語の勉強を始めました。ただ暇なんだから何をしようかなと思って結局適当に日本語を勉強することにしました。最初には僕が目指したのは流暢になるということでした。イマージョンする時、別に楽しくないわけじゃないけどなんか語学力を上達しているのそのものは一番のモチベーションでした。以前より本を早く読めるとかという感じをモチベーションにしました。
+
+でも、今は違います。今年、なんか新しいモチベーションを見つけました。はい、皆さんもう知っているでしょう？そうです、やっぱりVチューバーのことです。今まで何か意味深い文章だと思っているね皆さん。違います。やっぱりVのことを話したいです。
+
+僕前からVをもう知っているけどあんまり興味ないから見てなかったです。でも今年のある日にはベッドにごろごろしながらオススメページで気になる配信を見つけました。「ネタバレ激しすぎるRPGー最後の敵の正体は勇者の父ー」というタイトルでした。まぁ今別になにもしてないから見てみようかと思いました。結局午後３時まで昼ご飯さえも食べずにベッドにそのまま３時間の配信を見てしまいました。本当に神ゲーで神配信だった…僕には伝説になりました。その日から毎日Vを見ててVにハマっています。
+
+Vというか天音かなたというVチューバーですね<:PPSmug2:715878753716404235> 。なんか面白いしツッコミ上手だし面白い話がいっぱいあります。例えばリンゴジュースを飲むだけで１５分も話せる。「V好きだから切り抜きして自分で翻訳してみれば？」と友達に言われたら、まぁちょっとやってみようかと思いました。結局翻訳することはめっちゃ楽しくてもっとやりたくなりました。
+
+ここまで書いたのは僕の新しいモチベーションです。もっとVの配信を楽しみたいです。もっと日本語が上手くなりたくてもっと聞き取れるようになりたいです。もっと翻訳したいです。今はまだまだですがこれからもっと頑張っていつか上手な翻訳者になりたいです。仕事でしたいかどうか分からないけど趣味でもしてもいいと思います。
+
+この動画は自分で翻訳した切り抜きです。皆さんよかったら見てもらえませんか？
+https://youtu.be/sdm56o4agqs?si=ezhZMuWjE8h8uk9e
+TLC & QC: kashi, ayami, rae
+
+今年のアドカレを読んでくれてありがとうございます。皆さん、メリークリスマス！
+これからもよろしくお願いします。`],
+    },
+  },
+  {
+    day: 23,
+    en: {
+      userID: '781772168450146326',
+      data: [`Advent calendar challenge 
+December 24th 2024
+
+Dear 🌏💓⭐️THE WORLD 🌎 💓⭐️
+
+🎄❤️MERRY CHRISTMAS to  THE WORLD❤️🌏🎄!🧑‍🎄
+
+I wish you all have a wonderful Christmas!
+
+This is my first time trying an advent calendar, and I’m honored to join in.
+
+On this Christmas Day, I would love to show you how to make miso by yourself.So please give it a try!
+
+I make miso myself once a year in around March. It’s a very easy to make and healthy fermented food. If you have the ingredients, please give it a shot.
+
+Ingredients:
+    •    500g Beans (大豆)
+    •    500g Koji (生糀)
+    •    200g Salt
+
+This is my recommended ratio of ingredients for the miso.
+
+You can make 2kg miso with ingredients above. 
+
+(I normally make 5kg a year at once. )
+
+
+The ingredients are simply beans, salt, and koji.
+
+First, wash the beans thoroughly. Wash them just like you would wash rice. Then, soak the beans in water for 18 hours until they become soft. You will need three time as much water as  beans.
+
+Put the beans in a pot and add enough water to cover them. Boil them for about 3 hours. The key is to submerge the beans in just enough water to cover them. (If you are using a pressure cooker, cook for about 20 minutes.) 
+
+As soon as you take out the beans from the hot water,
+soak them in cold water for a while. Then, drain the water from the beans.
+
+Next, put the salt and koji into a plastic bag and mix them well. After that, add the beans and mix everything together. Mash the beans thoroughly. The degree of mashing is up to your preference.
+
+Shape the mixture into balls and try to remove as much air as possible, as air can cause mold to grow.`,
+`You should try to throw the balls into the container to let more air out , I mean…you could even try to throw the balls into the container to let more air out.
+(If you miss, the balls go flying so be careful! LOL I did miss few times 🤣I use to belong to the volleyball club so I’m ashamed of myself to miss it lol) Try to pack them tightly into the container to remove any air.
+
+The final step is to flatten the miso in the container. Sprinkle the salt evenly on top, cover with plastic wrap, and store in a cool place.
+
+You can enjoy the miso after 6 months to 1 year.
+If you see any mold, just remove it.
+
+To finish, put a sticker on the container with the date you made it and the word “Love”which will make the miso even more delicious!(言霊)
+
+You should definitely try it!
+
+I wish you all a Merry Christmas and a Happy New Year! ❤️🎄
+
+🌏⭐️💕 May there be a world without war. 
+🌏⭐️💕Peace & Love 💕 ⭐️🌏　　　　　　　　　　　　　　
+
+🎅The reality that letters to Santa, who lives in Canada, are not reaching him due to his strike is a sad truth for children. I hope that next year, Santa’s strike will come to an end.🎅🙏
+
+———From Yu ————`],
+    },
+    jp: {
+      userID: '317491770114048000',
+      data: [`２０２４年１２月２３日
+こんにちは、皆さん！TofuMarsだよ！クリスマスと言えば、プレゼントを配ったり受かったり、クリスマスツリーを飾ったりすること。もしかして、恋人がいたら、クリスマス・デートでもするかも！？そういう題材にしなくて、もっと、もっと、ときめき、可愛さ、やる気を湧き出せる話を書いてみたい。もちろん、この話はフィクションだが、顕現されている気持ちは本物のはずだ。
+
+タイトル：補習を回避すれば、満点を取るコツは一つ！じゃない！！
+
+「ふふふ、この服で森羅万象の真理を感想してるぞ！」
+
+ダサくて虹色のフリルドレスのままで暗い教室の中でギラギラ輝いている少女と宣伝された。あの子の前に一人の男がいる。彼の心で「どうにかしろよ！こいつが死んじゃうぞ！」と響き出したのに、まるでメドゥーサに石化されたみたいに動けなかった。降参したがっている瞬間に彼がいいことを思いついた「そうだ、まだやれることがあるぞ！それやるしかない！」
+
+遡ること数時間前：
+
+どこにでもある学校の教室には、数学の先生の講義を見ながらソワソワしている少女がいる。髪をいじり、鉛筆を噛み、椅子の背にもたれあっていて、講義のつまらなさに彼女が机の面に頭突きさせる瞬間に先生が振り回してクラスの皆に向いて「明日は学期末テストなので勉強し忘れないでね！しかし、今までしなかったら、勉強するより神様に祈った方が良いよ」誰も笑わずに先生をじっと見た。言わずもがなダサい冗談だった。空気を読めなかったことを気づいてから先生が退室した。くしゃくしゃ髪型した少女は隣の学生を向いて「あ～よかった。。。じゃないよ！赤点取ったら僕のゆっくり休みを奪っちゃうよ！梧桐（あおぎり）くん、助けてよ。。。一生の願いだって」「なぜあんたを助からなきゃいけないか？自業自得だろ？ゲームしたり天井をぼうっとしたりしたくせに」彼女が手でハートを作って胸へ置いて「この可愛い僕は君の唯一の親友っしょ？他の女の子に虐められた時、誰が君を庇っていたの？そう、この白き鎧の騎士の僕であった！」と言われた。「まぁ、その論理で議論できない。放課後にこの教室に会えよ」「わい！菓子、飲み物などを僕に任せて！この語部瑠夏（かたりべるか）の辞書には不可能という言葉はない！」廊下へ走り去っていく瑠夏の姿を見ながら梧桐は教科書を集めて、勉強会の準備をし出す。
+
+遡ること１５分前：
+
+「よし、準備万端。これで瑠香ちゃんが合格だそうだ。ギリギリだけど」梧桐は扉を向いて瑠夏が来るまで待っていた。梧桐は眠くなってくる時、突然、扉がどんと開き、「おい、テメェ！」と声掛けた瑠夏が教室に入った。「こんな声掛けが必要じゃないか？」「必要かとは別件だけど、眠気を一切発散させばいいんじゃない？見ればわかるよ、可愛い僕のために待っていた寝顔を」瑠夏は床に２つの箱を置いて「左の方が差し入れだよ、どうぞ！」モンスターエナジー２本とチップス２つを取って、机の面に置いた。「右の方が勝負服だよ！」虹色のフリルドレスと彼女の頭にぴったりするカチューシャを取り出した。「どこでこのドレスを手に入れた？」「コンビニに行ってついでに家に帰ったんだ」「魔法を含んでいるらしいよ、このドレス。見た目は疑わしくて本当に優しいおばあちゃんから買っちゃって」瑠夏は誇らしく宣伝した。「特に知恵を与えるんだ。これでよく行ったら、僕達は一度も勉強させない！」瑠夏はドレスの中に潜り込みながらと言われた。「どうやって頭良くなるんだ？手術だろうが万能薬だろうがバカは治らないよ」「頭に綿が詰まったんですか？さっきの話通りに魔法で頭が良くなるんだよ！ま・ほ・う・で！見て下さい！ドレスの儀式の行いを！」瑠夏は3回ぐるぐると回って天井に左手の指し指を指して最後に右手の手平が梧桐へ伸ばした。１秒経過。２秒経過。３秒経過。電気がチカチカし出し、まるでドレスに電気のエネルギーが吸収されるみたいに虹色の色彩が深くなってくる。真っ黒の教室の中に立っているのが瑠夏だけだ。遺体のように彼女の顎が開き、深淵如く瞳が暗くなった。「ね、梧桐くん。いいこと、いや、物凄いことを思いついたよ。これで学校で一度も勉強させないというより、一生（これからも）一度も勉強させなけばいいんじゃない？」「なっ、何言ってるんだよ、瑠夏ちゃん！勉強すること、学ぶことが人生だ！」「だよね。。。だから。。。一緒に死んじゃえ！」虹色の雷で包み込んで、瑠夏がどんどんギラギラに輝いている。「森羅万象の真理を感想すれば、頭に知能を溢れすぎて死んじゃう！蘊蓄を尽くして死神として教鞭をとる！」梧桐は椅子を使って、盾として虹色の雷から防いだ。しかし、この雷は壁に数回反射して、跳弾で梧桐を当たった。怪我はないが、彼は床に転んじゃった。「ふふふ、この服で森羅万象の真理を間もなく感想してるぞ！」瑠夏が狂って笑ってた。梧桐は動かずに瑠香の方に向いて、モンスター2本を気づいた。「そうだ！こいつの力の源が光だ！光の吸収を乱せば、元に戻るはず！やるしかない！」どうやら瑠夏に見えずに彼が箱に近づいてモンスターを握って瑠香のドレスまるごと全部に注いでた。「僕の勝負服が！」瑠香が叫びながら、ドレスから光が出てきた。教室の明るさと瑠香の意識が戻った。梧桐は砂糖でベタベタ粘った瑠香に近づいた。「ぴえん！もう詰んだ！結局、私の天国（やすみ）を奪っちゃった～」泣きじゃくりながら言われた。彼は彼女を慰めてみた。「私を道連れにすれば、私たちは詰んだよ。物理的に。テストの勉強しなかったけど、学んだことが一つだ。一気に勉強するのが無理でしこしことし続けば何よりだ。」「へへへ、しこしこって言っちゃって」瑠香は微笑んで涙の跡を拭いた。「意味を勘違いしないで。しばらくゆっくりして、できるだけに勉強しよう！」`],
+    },
+  },
+  {
+    day: 24,
+    jp: {
+      userID: '202995638860906496',
+      data: [`## 2024年12月24日
+### __日本語へ手紙を__
+皆さん、こんにちは。またはこんばんは。今日はクリスマス・イブですね。普段はアドベントカレンダーの参加は他のユーザーに譲るのですが、今年は特別です。今年で日本語を勉強し始めてから十年になります。この一年ではなく、この十年を振り返ってみようと思います。
+
+自分にとって、日本は特別な場所です。そして、日本語も特別なものです。でも、具体的な理由を述べようとすると、すぐには言葉が出てきません。どう特別なのか説明しようとしたら、このアドカレが倍の長さになってしまうので、それは別の日の話のために取っておきましょう。その代わりに、今日お話ししたいことはその特別さからどういう影響を受けたことについてです。
+
+日本語を勉強し始めたのは2014年の春で、高校の最後の一年でした。新しい言語を勉強しようと思ったけど、取れる外国語のクラスは日本語しかなかったんです（本当に、自分の高校にはスペイン語と日本語の授業しかなかったんです）。正直言うと、学び場としては、その授業の質が少々低かったです。田中先生が楽しい先生でしたし、田中先生には感謝していますが、その授業からはあまり何も学びませんでした。クラスメートの8割が一年生ということも大きかったのですが、高校の外国語の授業には限界もあります。でも日本語の味見としては立派な役割を果たしてくれました。
+
+大学一年生の時は、日本語の授業を受けずに欧米の言語に戻り、スペイン語とフランス語の両方を取ることにしました。そして二年生になると、友達に「日本語を一緒に取らない？」と誘われ、日本語の勉強を再開することを決心しました。二年間勉強してから東京の国際基督教大学（ICU）で短期夏季留学を一度してから、物理学専門で大学を卒業しました。その時点では、まだ物理学がメインで、日本語の勉強はただの趣味のままでした。
+
+既に大学院に進学する決意をしていたのですが、ある日、日本語の先生のお誘いを受け、JETプログラムという仕事の説明会へ参加して、興味を持ちました。そのJETプログラムへ申し込んでみたら受かりました。そして、東京の西の方にある科学技術高校のALTの教師（外国語指導助手）になれました。
+
+考えとしては、大学院に進学する前に、日本で一年間ギャップイヤーとして過ごすことは悪くないだろうと思ったし、推薦状を書いてくれる物理学の先生方も、そう仰ってくださいました。こうして、日本に引っ越しました。そしてどうやら、自分を快く迎え入れてくれた日本に心を惹かれてしまったようです。思いがけないところに居場所が一つ増えました。本当に日本のお陰で出会った方々、得られた経験、見ることが出来た景色などが、自分の人生を永遠に変えてくれました。
+
+日本で二年間住んでいた都市が自分にとっての第二のホームタウンになりました。あそこにはいつ行っても、歓迎してくれる人が待っています。そして日本からアメリカに戻っていっても、大学院の授業で知り合った同級生より、立ち上がりに協力した日本語・英語交流サークルで出来た仲間の方に親近感を覚えました。そのうち、そのサークルの会長（正確に言うと名称として部長の方が相応しいと聞きますが、みんなは会長と言います）へまで上がり、いずれその会長の席を後輩に譲りました。
+
+日本語を勉強している現地の正規性にせよ、日本から英語を勉強しに来た日本人の留学生のせよ、そのサークルで永遠の友達がたくさんできました。今付き合っている彼女もそのサークルで出会った人です。本当に素敵な人で、彼女は多分今年の一番大きなハイライトでした。
+
+彼女のお話だけでアドカレの残り枠を全部使えちゃいそうです。全部自慢話になってしまいます。パンやお菓子作りが好きだったり、研究室で研究したり、日本語の読書が好きだったりして、とても面白くて好きな人です。本題に戻すと、この人生のパートナーという存在も、好きになったのは、やはり日本に対する想いが似てる点が大きかったです。
+
+つまり、言いたいのは、日本のような国に長く住むと、価値観が良くも悪くも変わってしまいます。その価値観がわからない人と合わなかったりするようになることもあるのでしょう。日本人になりたいなとか、日本人として生まれたかったなとか、そういうことは言い出しませんけど、少しはこの10年間で日本色に染められたかな。それはもちろんいいことだと思っています。今の人生が幸せで、他の人生と何も交換したくないと思います。この十年間、とてもお世話になりました。これからも宜しくお願いします。`],
+    },
+  },
+  {
+    day: 25,
+    jp: {
+      userID: '684483298663464960',
+      data: [`# 2024年12月25日
+
+**パン屋さん(抜粋)**
+
+大学を卒業したばかりの私はどうにか自活しなければならなかったので、食品化学の学士号だけで就職しようとして、パン屋で働くことになった。大学の専門とはめっきり異なったのがわかったので、面接の間に必修の調理実習で習得した経験でわざと訴えようとしたが、仕事に就くことにはそんな素朴な一言が利くだろうとは思いもしなかった。少なくとも、乗り気だと見なされたら良かったな、と。
+同期の辛島（からじま）みきが、祖父の和菓子屋で生まれ育ったので、米粉や餡子の何種類でも知り尽くす上に、手先も器用に違いない。本物の「几帳面」と「真面目」とされる性格だった。彼女には一生涯敵わないと何遍も思っていた。
+
+人手不足によりこんな風に大学を卒業したばかりで未熟な二人きりに店の運営を任せるのは、誰にとってもおかしく見えるだろう。責任が重すぎるのではないか。と言っても、仕事で努力し続けたのは、仕事がどれほど辛くても我慢するしかないと自分に言い聞かせてまで、働きながら経験をさらに積むことができるからだ。上司が言った通り、このパン屋で働くことにより、様々な役割を味わうことができて将来にどんな役職を狙いたいのかはっきりわかるようになると思い込んでしまったので、上司の期待に応えるようになんでもやってみようと覚悟を決めた。とにかく、当座のところ先任者が転職するまで、五ヶ月間重なった雇用期間を精一杯生かすしかなかった。様々なレシピや手続きを努めて書き留める上に、先任者ほど手際よくできるように実習にも励んだが、先任者の二年半間蓄えた経験に、自分が五ヶ月以内に追いつくなんて無理だろう。
+
+私が担任する番になると、まるで上司自身が耳元で囁いているかのように、「様々な役割を味わえる」という一言の不気味な余韻に浸っていて足がすくんだ。その言葉遣いの図太さを改めて思い知った。「様々」より「万事」、「味わう」より「担当する」という現実を突きつけられた。パン屋の運営ができるようになるため、実際に経験するということより効果的方法なんてないだろう。さぞかし様々な責任を負わせられてからどの役職が自分に合ったのかはっきりわからないはずがないのだ。
+
+行き掛かり上、パン作りだけではなく、接客や在庫管理や商品開発や衛生検査の準備まで、たまに特別注文や配送や指導も、仕事を二人で分担しても、諸々の物事を順次より同時にこなさないと済まない日々は切りがないと思っていた。
+そのため、このまま二人きりでいる限り、食品化学とお菓子屋さんの経歴を組み合わせて、お互いにもたれ合うしかなかった。共同で店を営む時間を過ごせば過ごすほど、お互いの考え方や境遇を徐々に理解できるようになってきた。少なくとも、全部順調に進んでいけるように努めるという共同の目的で、職業上の関係にしては懇意になれてきた。
+
+仕事を家に持ち帰ることも多かったとは言うまでもない。今何もしていなくても、いつも次のやるべき事を考えている悪循環なんだ。寝不足で早く起きるのが辛い朝にしても、かろうじて出社できた。寝ぼけたままさっそく朝の準備をしようと思ったところに、前夜遅くまで残業していた辛島さんが帰宅した前に、私が使うつもりだった材料をすでに調理台に置いてくれたのに気づいた。今朝店に入ってから、私は会釈して「昨日ありがとうね」と声をかけた。
+「ううん、自分の準備をしたついでだからさ」とみきは何気なく答えた。
+
+そのため、新しい人をもうすぐ雇うところだと上司に予め断られた上に、その新入店員の内の一人がパン製造技能士の二級、二人は特級合格者だという情報は、たちまち将来を照らす光になってくれた。喜んで新入店員たちに案内したり、うちの店に特有な手続きをつくづく誘導したり、どんな悩みに対しても心を込んで相談に乗ったりしてあげた。
+
+他の人と協力することはもちろん一人でも仕事できると期待されている職場にすんなりと溶け込むはずだ。周りの人にあまりにも頼りすぎるより、ただ色んな資料も参考にして自分で進めるように努力してから結果を振り返って自分でやり直すにすぎない。私たち二人もこんな風に育てられたから、みんなと全員力を合わせたら、鬼に金棒ではないか。全体的に生産性を上げることができて、救われる。`,
+`私は生地をこねながら、半時間寝かせる前に他のと取り違えないようにラベルを貼っておこうと思ったが、ペンなどが手元にどこでも見当たらなかった。しばらく探そうとして調理台から調理台へ移動したあげく、見つけられずじまいだった。「私がどうかしてるのか」と思いながら、知らないうちにレジまで着いて、マジックの山を発見した。
+
+みきは私が目を擦ってから二度目したのを目にしたら、「りえ、どうしたの？」と尋ねた。
+「ペンとか探していたんだけど…」と私は言い切ったところで、マジックの山に眼を落とした。
+みきもたちまち慌てて、エプロンのポケットに手を突っ込んで探り回ってみた。「おかしいね…普通に使っているペンも一体何処？一番好きな青いヤツは？」
+「みきが昨日残業していたとき、他に誰がいたの？」
+余程毎日重役出勤と共に早退する習慣のある鈴木（すずき）先輩と、上司に媚びるために無遅刻無欠席で理想の会社員を装って毎日定時的に退勤する黎（れい）先輩を消すと、富沢（とみざわ）先輩しか残らなかった。
+自分で全く最後まで使い切ったバニラエッセンスの瓶を手にしながら、何食わぬ顔をして「ねぇ、今暇でしょ？じゃあ、追加で注文してくれる？至急お願〜い。今すぐ要るんだから」と何気なく頼んだ天然な富沢先輩か。「これから何かの材料を使おうと思ったら、まず残っている量を注意しておこう」という忠告でさえ、彼女にとって長すぎるだろうし、脳にぴったりと収められず、右の耳に入ってからすぐ左の耳からはみ出す。
+みきと私は「マジかよ…」と「さすがだね」といった目つきを一瞬で交換した。
+私たち以外誰も気づかないだろうが、マジックの山を一本ずつ数えて、調理台ごとに同数のペンを配って、どの調理台に所属するかを示すために相当する色のマスキングテープをそれぞれのペンに貼ることにした。すると、道を迷ったか見捨てられたペンに目を留めるなり、元の場所にすぐ戻すことができる。その日からも、ぺんたちがレジの傍に置いたマグカップを別荘にしてオーブンなどからその辺りで避暑に来るのをしょっちゅう見かけた。みきと私は、毎回みんなを導いて帰宅させる季節の移ろいだった。あたかも夏と秋しかない異世界に引き込まれて、その狭間で延々揺れていたようだった。なぜか夏の方がいつも長く感じたのだが。
+
+「まるでこのパン屋なんて小鬼に取り憑かれているようだね」といったみきからのセリフは、ずっと記憶に残っている。確かに、小鬼も一緒に暮らしているだけにこんなおかしい事ばかり起こっているんだろう。他にもいたら、必ずさらに困ってしまう。三匹まで増えたら、どれくらい耐えられるだろうか。
+
+正解は、三年間このパン屋さんで働いていた挙句、四月に二人で同時にやめることにした。もうおそらくずっと前から気づいただろうと思うのだが、ご推察の通り、修羅場はパン屋ではなく、研究室だった。契約が終わり次第、単純に仕事をやめさせてもらうということではなかった。上司の依頼が、四月というより、いかにも死月と呼べるほど山のようにあった上に、相談や手助けを求める連絡の形で、十二月にこの短編を書いている私と、みきにも時折届けているほど溢れ出してしまった。その水に爪先を少しでも浸し次第、一生消えなく染められてしまい、一生逃げられない。`],
+    },
+  },
+  {
+    day: 26,
+    en: {
+      userID: '297635569041801217',
+      data: [`It was a snowy day when I woke up from the blaring phone alarm and reached to snooze it. After snoozing, the home screen tells me that it's 12/25 7:00. Christmas has come. A day that should be brimming with cheer. I've still got plenty of time until work, so I opened Twitter to check out the festive mood—until I saw the No. 1 trending news. My favourite VTuber, had announced her sudden graduation. The news struck me so hard I could've isekai'd at that point. *She*, my oshi, illuminated the gloomiest of my days. Her songs greeted me every morning as I headed to work, and her streams comforted me to sleep every night.
+
+Unable to process such an astonishing announcement, I dashed outside into the snow. The picturesque Christmas scene that everyone would adore seemed desolate and foreboding. The harsh cold reminded me of the frigid depths of Cocytus. I ran aimlessly, as if literally running away from the truth. 
+
+All I had in mind was disbelief and betrayal, but as I rounded a corner, I bumped into someone. The impact was so strong that we both tumbled into the snow. Groaning, I came to my senses and realized I had knocked over a girl, quite a petite one at that. Quickly, I scrambled onto my feet and extended a hand to her.
+
+"I'm so sorry! Are you alright?" I asked, my voice trembling from the cold and concern.
+The girl looked up at me, her eyes wide with surprise. She took my hand, and as she did, she slowly spoke, "Thanks."
+
+My heart skipped a beat; her voice... it was incredibly familiar. 
+
+"I didn't mean to knock you over. I was just... lost in thought." 
+
+The girl smiled, brushing snow off her coat. "I'm alright."
+
+Another truck was about to hit me when I heard her voice again. It couldn't be... It can't be. The voice I had heard every day was now right in front of me.
+
+"But... it's impossible... what are the odds..." I stammered, ignoring the said person in front of me.
+
+She laughed softly, her eyes twinkling with a mixture of amusement as if she had noticed my inner turmoil.
+
+"You don't have to overthink it. Anyways, it's my fault for not paying attention either. I came here to clear my mind, so in that sense, we're pretty similar, aren't we?"
+
+I gawked at her as if she said something that'd bring me to enlightenment. The VTuber I had idolized might be standing right in front of me. A sense of wonder and awe replaced the disbelief and betrayal that haunted me seconds ago.
+
+"Again, thanks for helping. Maybe we were both looking for something today." She said, her voice gentle and real but with a hint of anticipation.
+
+As the snow continued to fall around us. That was when I knew that this year's Christmas would be unlike any other. In the most unexpected ways, fate had brought me a new encounter, a new hope, and perhaps, a new chapter was beginning for the both of us.
+
+||And then, everything faded to black. I woke up in my bed, the morning light streaming through the window. It wasn't snowing. It had all been a dream. I reached for my phone and checked the trending tweets just in case while my heart was racing. Nothing; there was no news about some VTuber graduating. It was just a dream—a dream that felt so real, yet left me with a sense of hope and a new perspective on the magic of Christmas.
+
+Thanks for reading guys!
+I've always thought that I should write the cringiest thing when participating in these events, and I hope y'all enjoyed it. 🙂
+I also planned to draw a little something for y'all, but alas, I was a bit too busy with work, so you guys just get this fabulous entry from me. 😦
+
+Anyhoo, I wish everyone a Merry Christmas and an early Happy New Year!||`],
+    },
+    jp: {
+      userID: '623596512487669760',
+      data: [`**December 26th 2024**
+Thanks for letting me be part of this advent calendar event!
+
+I'm an IT consultant by profession and an avid cyclist who loves watching tons of anime during indoor training sessions. While there’s so much I’d like to share, I’ve narrowed it down to my top 3 anime picks for you to enjoy this holiday season:
+
+1. That Time I Got Reincarnated as a Slime
+Imagine waking up in another world… as a slime! It’s not your typical “転生もの” where the protagonist reincarnates as some overpowered hero. This slime starts as a nobody but gets special skills that let them grow into the coolest leader in the world. It’s got action, laughs, and even moments that’ll warm your heart.
+
+2. Eye Shield 21
+Unlike the first one, this is a story that could happen somewhere in the real world. It’s about Sena, a shy guy who was bullied so much that it actually trained him to run insanely fast. By chance, he gets dragged into a team of quirky underdogs. You don’t need to know a thing about American football to love this one! Every team member has their own unique character and story, and I guarantee you’ll find a favourite by the end.
+
+3. Sword Art Online
+We’ve all wondered at least once what it would be like to dive into a video game—and this series brings that dream to life. Players get trapped in a VR game where dying means it’s game over for real. It’s packed with high-stakes action, epic battles, and just the right amount of romance. Once you start, you won’t want to log out!
+
+Not the exhaustive list, but here are some other anime I like:
+
+* JoJo's Bizarre Adventure
+* Hunter x Hunter
+* Fullmetal Alchemist
+* Assassination Classroom
+
+There’s so much great anime out there, and if you’re an anime fan like me, let’s chat about it on the Discord channel!`],
+    },
+  },
+  {
+    day: 27,
+    en: {
+      userID: '700992656284844053',
+      data: [`Hello, everyone. 
+I appreciate the organisers in the server who arranged Advent Calendar. 
+I hope you all reading this have a wonderful day today.
+I wrote two things; an essay which is similar to a poem and a bite-sized story. I hope the English writings make sense and hopefully you all enjoy these. Thank you!`,
+`=============
+**My Thoughts: The Work of Sadness**
+
+When you feel sad, the feeling shapes the sadness in your mind,
+like a dim silver stone.
+
+When the sadness is heavy, it sinks into the deeper level of your mind,
+like a dive into the deep sea. 
+
+The heavy sadness settles in at the depth, 
+absorbing others it perceives there, influencing each other.
+
+There may be some relations between the causes of each sadness,
+and they may grow together,
+creating lumps of sadness.
+
+When a new sadness comes down,
+the old shapes might react to the new one,
+like a chemical reaction.
+
+Sometimes the chemical reaction makes a sound,
+a notification from the depth of your mind,
+reminding you of the existence of the cluster.
+
+You may catch the notification,
+and may take a step to heal the clump,
+or simply recognising the clump may soothe it.
+
+This is likely a natural circle of humans' minds,
+(That is possibly the system of the brains)
+There is nothing wrong with acknowledging our sadness. 
+
+=============`,
+`**= The Exquisite Blue Sky =**
+
+I'm an airplane pilot. I’m currently on a flight over the ocean, and have been managing to deal with a problem in the left engine for a few hours. 
+Furthermore, another problem just arose: the fuel does not seem to be sufficient to reach the closest airport. 
+It seems to be inevitable to land on the surface of the ocean even if I resolve engine trouble.
+
+This situation is a sort of dilemma.
+If I try and fail the landing, the airplane will suffer severe damage, and then might end up with a fatal accident.
+However, if I don’t land, it would eventually mean a crash.
+Now I must accomplish landing the airplane there!  
+My priority is to land the airplane safely with all passengers.
+
+…
+
+My last memory was seeing the massive splash as we hit the water.
+…
+
+Now I find myself looking up at the exquisite blue sky, lying on the nose of the airplane.
+
+The End`],
+    },
+    jp: {
+      userID: '307678885942657046',
+      data: [`# 2024年12月27日
+
+来週から、私の人生が全く変わる。
+
+…と言っても、違うなぁ。ある意味で変わるかもしれないけれど、確かに今の私と同じで笑ったり、失敗したり、足掻いたりするだろう。
+
+来週から、日本へ6ヶ月の留学をすることになる。ただの６ヶ月だから大したことないと思われるかもしれないけれど、アメリカの外へ踏み出したことのない私には人生を変えられる経験なのだ。
+
+実は、大学にいるうちに留学するつもりなんてなかった。普通に授業を受けて普通に卒業して普通に就職すると思っていた。でも一年間前、気付いたらもう日本への留学申請を書いている。なぜなのかな。私は日本語を専攻にしていないから日本へ行くなら自分の卒業を遅らせてしまう可能性がある。それなのに、どうしても行きたかった。考えてみれば、こんなチャンスが二度と来ないから今こそ捕まえなきゃならないからだろう。
+
+上手くいくかどうか知らない。今の大学生活より辛くないと思えたいけれど、それは確かなことではない。でも知らなくてもいいかもしれない。同じような辛さがあるかもしれないなら同じようなしあわせもあるかもしれない。確かめに行くしかないだろう。
+
+私は何も後悔したくないから不安ばかりだ。変わるのは怖いから見知らぬ場所へ行き、見知らぬ辛さに触れると嫌だ。でも、不安になると、留学を決めた時お父さんの言葉を思い出す:
+
+「大学ん時、俺絶対に留学できなかった。勇気なんてなかったんだ」
+
+あ、私、もうちゃんと勇気を持っているんだと思い出すのだ。自分を信じなければ何も始まらない。
+
+たかがの6ヶ月。たかがの6ヶ月だれけど、何があっても、こんな臆病な自分を少しずつでも変えて、日本を楽しめたい。`],
+    },
+  },
+  {
+    day: 28,
+    en: {
+      userID: '739702692393517076',
+      data: [`Hello
+
+This is my first advent calendar.
+At this week i bought light novel. I didn't read it, so after this, i am going to read book.
+
+Have you ever eat Oshiruko? It is my favorite food, and it is very sweety. I put mochi at there, and eat with it. When i eat that, it makes me warm. So i always eat that when the outside is cold. If you come to japan, i recommend to eat Oshiruko.
+
+Next year's goal is writing japanese text more better that this year. I am not good at writing, so i need to level up my writing skill.
+Most people think my japanese is good. But i don't think so that. This is because when i wrote report, most people said you must rewrite that, because the grammar is not good and it is very hard to understanding. so I need to train more than more.`],
+    },
+    jp: {
+      userID: '681475127208312854',
+      data: [`# 2024年12月28日
+こんにちは〜 ペリーだよ〜
+
+みんな元気にやってる？もうすぐ2025年だね！今年大学であったことについてちょっと愚痴と、そこから学んだことをまとめてみた。よかったらぜひ読んでみて！あと、早いけど、明けましておめでとう！
+
+背景：これは私の専攻になる電気電子工学に関する最後のプロジェクトのグループフォーメーションの話。このプロジェクトは、卒業までに自分のプロジェクトに特許を申請するか、あるいは科学論文を書く必要がある。
+
+7月あたり、教授から「プロジェクトグループ組み合わせがこれから始まります」って通知が来たとき、一人でやろうと思って教授に許可をもらいに行ったんだけど、最初は大丈夫って言われたけど、後で「ダメ」って言われちゃった。その時点で、残りのクラスメイトはすでにグループできてて、私以外に3人だけがグループ無しで残っていた。その3人はそれぞれ、ジョン（プロジェクトを一人で進めようとして教授に断られた）、カイル（全然学校に来ない）、そしてベン（成績があまり良くなく、協力が難しそう）だった。
+
+最初「一人じゃダメ」って教授に言われたとき、その代わりにジョンと組むように言われて、それに同意した。なぜかというとジョンはできる人だって分かってたし、彼ならきっと協力してくれるって信頼があった。数日後、あるプロジェクトレビューミーティングでまた例の教授から「ジョンとはダメ」って言われた。えっ？急に何があったの？せっかくジョンに通知してこれからのタスクとか話し合っておいてたのに。呆然としてると、教授は指示を続けた、「ベンとカイルの中からどちらか選びなさい」。するかよ、絶対ない！その場で直接「さっきまでジョンと組ませるつもりだったんでしょう？ベンとかいるなんて誰なのかすら知らないよ、見たこともないし」って言い返したけど、教授はすぐ「言い返すつもりなら主任教授に話せ」って言い放って電話を切り、学部長に転送した。
+そして学部長は「プロジェクトを一人でやることは、うちの学部のポリシーとして認められてない。ベンかカイルのどちらかと組みなさい。ジョンと組むのは避けてほしい、彼には特別なプランがある。カイルと組んでみたらどう？」と言う。私すぐ「カイルは大学に全然来ないので、会う機会も少ないし、彼と協力できるかどうかはとても自信がないんですけど。。」と返すと、「あっそ、悪いが、うちの学部にはそんな性格の生徒だけがいるから仕方ないね」と学部長は失礼に言い返す。
+えっ？一体何？？すごい頭にきたわ。「でも担任教授は最初私をジョンと組ませていたんですけど？それで私たちも話し合ってこれからのプロジェクトの計画も立てていたのに、いきなりどうしてですか」と答えると、学部長は「私にできることはこれだけだ、一時間中にチョイスを私に伝えなさい」と言って、電話を切った。一時間後、学部長が勝手に私をカイルと組ませたことを知った。どうすればいいのか全然分からんくて、部長を敵に回すほどの問題かというと全然そうは思わなかったし、とりあえず無言でいることにした。`,
+`それで、プロジェクトで何をするか考えて、「スーパーコンデンサとリチウムイオン電池のハイブリッド蓄電システム」というテーマに決まった。間もなくプロジェクトのファーストレビューの通知が来て、パワーポイントプレゼンを作るのがタスクの一つだった。このチームでは、結局努力するのが自分だけになるって承知した上でベンと組んだんだけど、さすがに自分が全部やる一方で彼が何の心配もなく協力もせずにただの観客のようにいるのは本当に腹立たしかった。だから、彼にもタスクの半分を任せたんだけど、適当に何とか作っただけのごちゃごちゃなプレゼンを返してきて、さらに腹が立った。そのとき、プロジェクトの予算も計画する必要があって、それについて彼に話しかけたら、「俺が半分出す」って言われた。最初はまいっかと思ったけど、友達みんなに「お前が全部やるからには少なくとも費用の60%あいつに負担させなよ」って言われて、私も確かにその通りだと思った。でも、それを自分で考えなかった自分にちょっと情けなく感じた。また彼に話しかけると「半分以上は一銭も出さない、問題があるなら好きにしろ」って言われてすごく呆れた。なんて奴だ、こいつ..。🧍‍♀️こんな態度じゃ彼とはプロジェクトなんか絶対にできないと思って、学部長にお願いして、グループを変えてもらえるか聞いてみた。本当に変えてくれるかどうかはわからなかったけど、とりあえず聞いてみたかった。最初は無理だと言われた。「今更言われても困るわ。もう全部決まってるし、今それを動かすとややこしくなる。それに、彼は一人では何もできないし、そのまま放っておいたら絶対に落ちるから、あなたみたいな学生が必要なんだ。彼を合格させるためにはね。彼は成績も悪いし、再試験もたくさん残ってるし、可哀想だから、彼もあなたたちと一緒に卒業できるように協力してくれない？」って言われた。一体何が起こってるんだ、この大学で 😭。呆然としたまま戻ると、彼の笑い顔を見てカンカンになった。ああああもう <:reeee:585700976707502090>  。
+
+数日後また学部長に話に行って、状況の説明をした。「両親は反対しています。プロジェクトの費用は払わないと言っています。このままでは学部長に直接話に行くと言っています。」というと、すぐグループを変えさせてくれた。この国ではね、親とか他の大人が関わらないと、学生の意見なんて全然尊重されないの。またグループ無しになった私は恥を捨てて最初にジョンに聞くと「それはちょっと。。もう一人いるから。。」とか言われて、また他のグループに聞いてみるとようやく一つのグループが組ませてくれた。
+
+というわけで、学びがいっぱいだった一年だったなぁ。自分の価値をちゃんと理解して、少しは自己主張しないとダメだなって感じた。これからも頑張るぞ 💪 長くなっちゃったけど、最後まで読んでくれてありがとう！2025年もよろしくね！`],
+    },
+  },
+  {
+    day: 29,
+    en: {
+      userID: '741428429018103928',
+      data: [`December 29th 2024
+
+Hello my friends.  
+I am very honered to be able to paticipate in this event again this year.  This time, I would like to write about my health condition and my thought on meal.  
+
+「 Enjoy eating 」
+
+I am diabetic patient.  I have been battling illness for over 20  years.  I don't think there will be a complate cure for this disease.  Even though I know it's not curable, I wish it could be.  However, the possibility of various complications is also very high.  But I must skillfully interact with the disease.  Dietary restrictions are also required.  But I love eating.  Food is a simple pleasure.  
+I try to eat my food slowly and chew it well.    
+Eating is my favorite thing. 
+I hope you enjoy eating.  
+
+Thanks for reading my short   
+miscellaneous essays.  
+
+I wish you a happy new year. 
+<:bow2:398262327843225613>`],
+    },
+    jp: {
+      userID: '191837210209812480',
+      attachments: [{
+        type: 'image',
+        file: 'china2024.png',
+      }],
+      data: [`僕は、お金持ちになりたいです。
+
+いやまぁ、そりゃ誰だってなりたいんですけどね。
+
+お金はいいですね、みんな。僕が初めて正社員になった今年までは働いたことがないので、当然お金を手に入れたこともなかった（両親からの小遣いやお年玉を除いて）。衣食住がちゃんとあったし、別に不自由は感じられなかったが、うちも裕福とは言い難いので欲しいものは基本的に我慢してきました。だからこそ、正社員になって初めての給料を貰ったとき、「これすごい量なんじゃ？？」と思ってしまう。
+
+ちゃんとした大人はこのお金を大切に扱って、使って、あるいは貯金するべきなのでしょう……
+
+いや、でも本当にびっくりしましたよ。欲しいものを自分の手で買うのがこんなに気持ちいいなんて。学生の身じゃ手が届かなかった高い洋服、スマホ、タブレット、バイク、等々……買う前にちゃんと品物を調べて、そして買うときはお店を訪れて、店長や店員に相談して、そして気に入れたものを買って、家に帰ってそれを始めて使う。その全てがずっと思ってたより好きです。
+
+自分がまだ学生の頃、いつも「お金なんか要らないです～自分はもう幸せだから」って思っていたけど、今はどうなんでしょう？もっと幸せになれるのために、お金が要るのかな。切りがあるんでしょうか。この先の自分がどうなるか、ちょっと怖いですけど、まぁこれも人生、ですかね。
+
+とにかく今の僕はもっとお金が欲しいです。<:china2:1240868666237649038> 
+
+（今年のイラストは倉本千奈です。この子超可愛いです。お金持ちでもあります！）`],
+    },
+  },
+  {
+    day: 30,
+    en: {
+      userID: '741412862739611661',
+      data: [`## How I enjoyed Stamp Rally   
+December 30th, 2024
+
+I have been using Discord for several years, but this is my first time participating in an Advent Calendar. First of all, I would like to thank everyone who contributes to this server and has allowed me to participate.
+
+Now, I would like to write about the most memorable event for me this year—"the stamp rally."　
+
+You might think, "It's just a stamp rally, not much of a big deal as a topic for an Advent Calendar." However, for an introverted person like me, who usually stays indoors, participating in stamp rallies has been quite a challenge.　
+
+ By the way, do you know what a "stamp rally" is? For those who don’t, let me explain.
+
+It’s kind of like a scavenger hunt, but instead of finding items, you visit specific locations to collect stamps. This year, I participated in one from July through September, visiting nine different branches of my favorite store across Japan, including regions like Kanto, Kansai, Tohoku, and Hokkaido.
+
+When I started the stamp rally back in July, I pushed myself—despite my tendency to stay indoors—to get out, take trains, ride the Shinkansen, and eventually even board a plane as the trips progressed. By the time I traveled to Hokkaido, it had become more about sightseeing around the area, using the stamp rally as an excuse, rather than just collecting stamps.
+
+The fact that I did all of this on my own means a lot to me. In the past, I had traveled many times, but always with my husband, who acted as a wonderful tour guide. All I had to do was follow along with him.　
+
+In a way, the stamp rally became an excellent opportunity for me to realize how dependent I had become. It also reminded me of the past, when I had traveled alone to the Philippines and the US as a student.
+
+With this new realization as my guide for the New Year, I want to encourage myself to live a more active and mentally self-sufficient life.  
+
+Thank you for reading!!`],
+    },
+  },
+  {
+    day: 31,
+    en: {
+      userID: '473013785884622848',
+      data: [`**Advent Calendar**
+Happy New Year’s Eve! Only a little bit left of this year! 
+I wrote my essay using my doggo power!
+
+**Review of 2024**
+Do you remember your New Year’s resolution from last year?
+My goal last year was to set aside one hour every day for studying English. I believe I achieved that resolution. I used Discord during my commute on weekdays and had two English lessons on weekends. From July to late November, however, there were some changes in my real life, and as a result of prioritizing my real life over studying English, I really felt my English speaking skills getting rusty. It was frustrating when I couldn’t express what I wanted to say. Since December, I took part in my company’s English training lessons, interacted with people from the international business department, and attended two small parties at work . I also had the opportunity to explain my team’s work to people from the overseas branch in English. These experience were stimulating. Recently, I’ve been feeling motivated to learn English. 
+
+**My New Year’s Resolution**
+First, I plan to decide on my future vision using the backcasting method before setting my goal.
+For example, if you want to achieve a specific goal by December 2025, you would start by imagining what your life will look like in December 2025 if that goal is achieved, and then plan the necessary steps to make that future a reality.
+My big goal is to change jobs and enjoy my life more.
+Some of the small goals I’ve set for myself by December 2025 are to earn an English qualification, take on more projects from the international business department, read recipes in English and cook more international dishes, and take lots of photos! How greedy I am. Just focus on my small goals! Finally, I will write this proverb.
+*“It is never too late to be what you might have been.” – George Eliot*
+ 
+
+Thank you for reading my essay woof! 
+Have a great rest of the year. 
+May your holiday season be filled with happiness and fond memories ✨`],
+    },
+    jp: {
+      userID: '128369934857273344',
+      attachments: [{
+        type: 'image',
+        file: '44.png',
+      }],
+      data: [`### アドカレ - Dec 31
+
+やほー、最後の参加者、えすぱーです <a:KyoukoWave:661074526716559381> 
+大学の勉強に集中したかったし日本語の練習からやすんでもう三年もアドカレ参加してないけど、いまはただのニンゲンに戻って暇ある。<:Ichika:1286419932174745671>
+
+きょうはすこしフルートの話をしたい。みなさんフルートと聞いて最初に思いうかぶ印象は？たしかに金属でできてて構造が複雑で見ればキラキラワクワク☆<:Emu:1091933215654150234>って感じかもしれんあい、普段クラシックとかジャズでよくつかわれる楽器でしょ。ほかの楽器と比べ、フルートの特性は女みたいな高音の悲鳴でどんな隣人でも良く迷惑かけられること <:YoumuTeehee:601143617075019778> (実は音ピッチが高いほど壁抜けにくくなって <:RyoNerd:1057550503355105324> 低音のがっきより平和をもたらす可能性高い <a:UtsuhoNod:1180292415416967249> )
+
+わたしはね、フルート始めたのは一年前１０月からのことでつい最近一周年記念「ふろーとばーさりー」祝った、ひとりで <:tstareokayfine:790923489417756682> 。はじめての楽器じゃないからやっぱり私にはいちばん難しいところは音色をよくすることとチューニングの調整だとおもう。フルートなら口の形 <a:YoshikaBlow:1146079420289908866>が正しくしてからでないときれいで周りの人に愉快させる音ができないっていうポイントあると分かってるけど、その「ただしい形」は近道はない、身につけるのは何年もかかることでしがたないね <:potatoshrug:530552695459938314>。
+
+「はじめての楽器じゃない」っていえばそれ前には自分でティンホイッスルとリコーダー習ったこともあった。二、三年前まだ大学のルームメイトいたし、ときどき車のなかでテナーリコーダーの練習をしたって今でもはっきり覚えてる 。そのとき、特に東方のアレンジと合わせて演奏の練習が好きで、そのなかにケルト風のアレンジ（[このような笛を中心にしたアレンジ](<https://www.youtube.com/watch?v=AsPzl2uuXV8>) <a:nitorinomnom:1221938257416294491>）が見つけてきにいった。同じくそのあとゆるキャップに紹介されて私ホイッスルよく使うサウンドトラックすきになって習得したくてホイッスルもはじめた（最初練習した曲は[本栖湖のテーマのソロ](<https://youtu.be/uxqUGrkJrBg?si=nOJLxQzB-JRQsl1S&t=237>) <:stargrin:1213068447274242129> ）。
+
+ケルトの音楽はフォークソングっていうジャンルの一種でクラシク音楽の笛の吹き方はなんかすごい違うよね。音少しかすれてもokし豊富な「タップ <a:bcaLazyPokeJiggle:733746912561332354>」 と「カット <:KanadeKnife:1091900574275993640>」 という装飾音とピッチベンドをよく使うスタイル。その装飾音は旋律を飾る役目だけじゃなくて、タンギングほとんどつかれないから音を区切るやくめもある。　その上たいてい長音階だけ使われてるし、普段楽譜使わないジャンルだ。
+
+ケルトだけじゃなく、それぞれの文化は自分の笛があって、ほぼ同じ装飾音使う（たしかに名付け同じくない）けど使う方法がやっぱり違いがある。たとえば、尺八みたいな音すべて装飾音使い放題っていう演奏スタイル、私もだいぶ好き<:lunaowo:1219077623821504623> （[原神からの例](<https://www.youtube.com/watch?v=hgHCJesJkc0>)）。
+
+はい、それ以上です。読んでくれてありがとー
+そしてあけおめ <:potatotada:530552696755978250>、よいおとしを <a:bcaLazySnacks:734189995224465468> 。`],
     },
   },
 ]
